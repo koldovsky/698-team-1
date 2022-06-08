@@ -1,0 +1,39 @@
+.about-us-description {
+    display: flex;
+}
+.decoration-line-about {
+    color: rgb(238, 46, 20);
+}
+.about__us-headline {
+    text-transform: capitalize;
+    color: var(--ui-dark-accent-color);
+}
+.about__us-preview {
+    size: 45px;
+    color: black;
+}
+.ten days {
+    color: #00bfff;
+}
+.about__us-details {
+    display: block;
+}
+.about__services {
+    size: 19px;
+    color: #808080;
+}
+.services__we__offer {
+    display: inline-block;
+}
+.service {
+    color: black;
+    size: 24px;
+}
+.service_description {
+    color: #808080;
+    size: 15px;
+}
+.about__image {
+    width: 276px;
+    height: 91px;
+}
