@@ -1,5 +1,7 @@
-html {
-    background-color: rgba(200,200,200,1.0);
+.carousel_spots {
+    /* background: #232428; */
+    background-color: rgb(35, 36, 40);
+    padding: 0 24px;
 }
 
 /* заголовок */
@@ -19,8 +21,11 @@ html {
 
 .carousel_spots__name {
     font-family: 'Playfair Display', serif;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 34px;
+    
+    letter-spacing: 1px;
+    line-height: 40px;
 }
 
 .carousel_spots__name__color_first {
@@ -34,7 +39,17 @@ html {
 /* текст */
 
 .carousel_spots__text {
+    font-size: 17px;
     color: rgba(255,255,255,0.6);
+}
+
+/* карусель */
+
+.carousel_spots__image  {
+    width: 270px;
+    height: 245px;
+
+    margin: auto;
 }
 
 /* цитата */
