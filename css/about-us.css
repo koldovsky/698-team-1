@@ -64,6 +64,7 @@
     height: 91px;
     padding: 50px;
     margin: 30px;
+    background: none;
 }
 
 p {
@@ -76,7 +77,7 @@ p {
     margin-left: 30px;
     margin-right: 30px;
     background-color: white;
-    margin-bottom: 100px;
+    margin-bottom: 300px;
 }
 
 .about-para {
