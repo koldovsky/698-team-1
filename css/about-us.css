@@ -8,7 +8,9 @@
         justify-content: center;
         flex-direction: column;
 }*/
-
+.generic-section {
+    background-color: none;
+}
 .decoration-line-about {
     color: rgb(238, 46, 20);
 }
