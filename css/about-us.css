@@ -26,7 +26,6 @@
     color: black;
     font-size: 45px;
     font-weight: bold;
-    padding-bottom: 10px;
 }
 #ten-days {
     color: #00bfff;
@@ -84,7 +83,7 @@ p {
         grid-template-columns: 1fr 1fr 1fr;
         gap: 5px;
         margin-top: 0;
-        background-image: url(..img/about_us/man-at-sea.jpg);
+        background-image: url(../css/img/about_us/man-at-sea.jpg);
         background-repeat: no-repeat;
         background-size: contain;
         background-size: cover;
