@@ -73,8 +73,10 @@ p {
 .services-subdiv {
     border: 1px  	#484848;
     padding: 50px;
-    margin: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
     background-color: white;
+    margin-bottom: 100px;
 }
 
 .about-para {
