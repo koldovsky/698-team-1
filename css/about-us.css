@@ -47,12 +47,13 @@
 }
 .services__we__offer {
     display: inline-block;
+    margin-bottom: 50px;
 }
 .service {
     color: black;
     size: 24px;
-    margin-top: 8px;
-    margin-bottom: 6px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 .service_description {
     color: var(--about-us-p-color);
