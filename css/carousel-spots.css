@@ -1,0 +1,58 @@
+html {
+    background-color: rgba(200,200,200,1.0);
+}
+
+/* заголовок */
+
+.carousel_spots__section_title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: rgba(255,255,255,0.6);
+}
+
+.carousel_spots__section_title_hyphen {
+    color: rgb(238,46,20);
+    font-size: 12px;
+}
+
+/* підзаголовок */
+
+.carousel_spots__name {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 34px;
+}
+
+.carousel_spots__name__color_first {
+    color: #fff;
+}
+
+.carousel_black__name__color_second {
+    color: #505155;
+}
+
+/* текст */
+
+.carousel_spots__text {
+    color: rgba(255,255,255,0.6);
+}
+
+/* цитата */
+
+.carousel_spots__quote {
+    text-align: center;
+}
+
+.carousel_spots__quote_image {
+    color: rgb(238, 46, 20) !important;
+}
+
+.carousel_spots__quote_text {
+    color: #fff;
+}
+
+.carousel_spots__quote_initials {
+    color: rgba(255,255,255,0.6);
+}
+
+
