@@ -58,18 +58,18 @@
     size: 24px;
     margin: 30px;
     padding: 50px;
-    background-color: white;
 }
 .service_description {
     color: var(--about-us-p-color);
     size: 15px;
-    background-color: white;
+    
 }
 .about__image {
     width: 276px;
     height: 91px;
     padding: 50px;
     margin: 30px;
+    background-color: white;
 }
 
 p {
