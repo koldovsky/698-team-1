@@ -23,7 +23,7 @@
 .about__us-headline {
     text-transform: capitalize;
     color: var(--about-us-p-color);
-    size: 13px;
+    size: 23px;
     margin-bottom: 70px;
 }
 .about__us-preview {
@@ -33,6 +33,7 @@
     font-weight: 400;
     letter-spacing: 2px;
     line-height: 40px;
+    padding: 50px;
 }
 #ten-days {
     color: #00bfff;
@@ -64,7 +65,7 @@
     height: 91px;
     padding: 50px;
     margin: 30px;
-    background: none;
+    background-color: none;
 }
 
 p {
@@ -77,12 +78,12 @@ p {
     margin-left: 30px;
     margin-right: 30px;
     background-color: white;
-    margin-bottom: 300px;
+    margin-bottom: 400px;
 }
 
 .about-para {
     border: 1px  	#484848;
-    padding: 30px;
+    padding: 70px;
     margin-left: 20px;
     margin-right: 20px;
 }
