@@ -75,7 +75,6 @@ p {
     margin-left: 8px;
     margin-right: 8px;
     margin-bottom: 400px;
-    background: none;
     padding-left: 15px;
     padding-right: 15px;
     background-color: white;
@@ -86,7 +85,7 @@ p {
     height: 70px;
     padding: 10px;
     margin: 8px;
-    background-color: pink;
+    background-color: white;
 }
 
 .service {
@@ -94,12 +93,12 @@ p {
     size: 24px;
     margin: 8px;
     padding: 8px;
-    background-color: yellow;
+    background-color: white;
 }
 .service__description {
     color: var(--about-us-p-color);
     size: 15px;
-    background-color: aquamarine;  
+    background-color: white;  
     margin: 8px;
     padding: 8px;
 }
