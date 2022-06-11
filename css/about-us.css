@@ -1,7 +1,7 @@
 .generic-section {
     background-color: none;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 /*SECTION1*/
@@ -16,6 +16,8 @@ p {
     padding: 70px;
     margin-left: 20px;
     margin-right: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .services__we__offer {
         background-image: url(../img/about-us/man-at-sea.jpg);
