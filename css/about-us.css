@@ -58,10 +58,12 @@
     size: 24px;
     margin: 30px;
     padding: 50px;
+    background-color: yellow;
 }
 .service_description {
     color: var(--about-us-p-color);
     size: 15px;
+    background-color: aquamarine;
     
 }
 .about__image {
@@ -69,7 +71,7 @@
     height: 91px;
     padding: 50px;
     margin: 30px;
-    background-color: white;
+    background-color: pink;
 }
 
 p {
