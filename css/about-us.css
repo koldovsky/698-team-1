@@ -19,7 +19,7 @@ p {
     margin-top: 0;
     margin-bottom: 0;
 }
-.services__we__offer {
+/*.services__we__offer {
         background-image: url(../img/about-us/man-at-sea.jpg);
         min-height: 600px;
         background-size: cover;
@@ -28,7 +28,7 @@ p {
         align-items: center;
         justify-content: center;
         flex-direction: column;
-}
+}*/
 
 .about-us-description {
     background-color: white;
@@ -115,7 +115,7 @@ p {
         grid-template-columns: 1fr 1fr 1fr;
         gap: 5px;
         margin-top: 0;
-        background-image: /*url('../img/about_us/man-at-sea.jpg');*/
+        background-image: url('../img/about_us/man-at-sea.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
