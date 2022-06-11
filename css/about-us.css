@@ -121,7 +121,7 @@ p {
         background-image: url('../img/about_us/man-at-sea.jpg');
         background-repeat: no-repeat;
         background-size: cover;
-        image-rendering: -webkit-optimize-contrast;
+        background-position: 50% 50%;
     }
 }
 
