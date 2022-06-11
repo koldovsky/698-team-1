@@ -1,3 +1,22 @@
+.generic-section {
+    background-color: none;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/*SECTION1*/
+
+p {
+    color: #585858;
+}
+
+
+.about-para {
+    border: 1px  	#484848;
+    padding: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
 .services__we__offer {
         background-image: url(../img/about-us/man-at-sea.jpg);
         min-height: 600px;
@@ -8,11 +27,7 @@
         justify-content: center;
         flex-direction: column;
 }
-.generic-section {
-    background-color: none;
-    margin-left: 50px;
-    margin-right: 50px;
-}
+
 .about-us-description {
     background-color: white;
 }
@@ -45,54 +60,45 @@
     display: block;
     margin-top: 50px;
 }
-.about__services {
-    size: 19px;
-    color: var(--about-us-p-color);
-}
+
+/* SECTION 2 - SERVICES*/
 .services__we__offer {
     display: inline-block;
     margin-bottom: 50px;
 }
-.service {
-    color: black;
-    size: 24px;
-    margin: 30px;
-    padding: 50px;
-    background-color: yellow;
-}
-.service_description {
-    color: var(--about-us-p-color);
-    size: 15px;
-    background-color: aquamarine;
-    
-}
-.about__image {
-    width: 276px;
-    height: 91px;
-    padding: 50px;
-    margin: 30px;
-    background-color: pink;
-}
-
-p {
-    color: #585858;
-}
 
 .services-subdiv {
     border: 1px  	#484848;
-    padding: 50px;
+    padding: 10px;
     margin-left: 30px;
     margin-right: 30px;
     margin-bottom: 400px;
     background: none;
 }
 
-.about-para {
-    border: 1px  	#484848;
-    padding: 70px;
-    margin-left: 20px;
-    margin-right: 20px;
+.about__image {
+    width: 276px;
+    height: 91px;
+    padding: 10px;
+    margin: 10px;
+    background-color: pink;
 }
+
+.service {
+    color: black;
+    size: 24px;
+    margin: 10px;
+    padding: 10px;
+    background-color: yellow;
+}
+.service__description {
+    color: var(--about-us-p-color);
+    size: 15px;
+    background-color: aquamarine;  
+    margin-bottom: 10px;
+}
+
+
 @media (min-width: 640px) {
     .about-us-description {
         display: grid;
