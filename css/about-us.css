@@ -76,6 +76,9 @@ p {
     margin-right: 8px;
     margin-bottom: 400px;
     background: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
 }
 
 .about__image {
