@@ -53,6 +53,7 @@ p {
     line-height: 40px;
     padding: 50px;
     margin-left: 45px;
+    margin-bottom: 35px;
 }
 #ten-days {
     color: #00bfff;
@@ -60,7 +61,7 @@ p {
 .about__us-details {
     display: block;
     margin-top: 70px;
-    padding-right: 50px;
+    padding-right: 70px;
 }
 
 /* SECTION 2 - SERVICES*/
@@ -75,9 +76,9 @@ p {
     margin-left: 45px;
     margin-right: 45px;
     margin-bottom: 400px;
-    margin-top: 30px;
+    margin-top: 60px;
     padding-left: 35px;
-    padding-right: 35px;
+    padding-right: 50px;
     background-color: white;
 }
 
