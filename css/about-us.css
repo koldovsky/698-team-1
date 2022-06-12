@@ -35,6 +35,9 @@ p {
     background-color: white;
 }
 .decoration-line-about {
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
     color: rgb(238, 46, 20);
 }
 .about__us-headline {
@@ -43,6 +46,8 @@ p {
     size: 23px;
     margin-bottom: 70px;
     padding-left: 50px;
+    margin-top: 50px;
+    padding-top: 50px;
 }
 .about__us-preview {
     color: black;
