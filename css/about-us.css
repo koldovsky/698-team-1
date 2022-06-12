@@ -52,26 +52,28 @@ p {
     letter-spacing: 2px;
     line-height: 40px;
     padding: 50px;
+    margin-left: 45px;
 }
 #ten-days {
     color: #00bfff;
 }
 .about__us-details {
     display: block;
-    margin-top: 50px;
+    margin-top: 70px;
+    padding-right: 50px;
 }
 
 /* SECTION 2 - SERVICES*/
 .services__we__offer {
     display: inline-block;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .services-subdiv {
     border: 1px  	#484848;
     padding: 10px;
-    margin-left: 35px;
-    margin-right: 8px;
+    margin-left: 45px;
+    margin-right: 45px;
     margin-bottom: 400px;
     margin-top: 30px;
     padding-left: 35px;
