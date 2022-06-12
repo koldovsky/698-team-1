@@ -39,6 +39,7 @@ p {
     padding-top: 90px;
     padding-left: 50px;
     color: rgb(238, 46, 20);
+    margin-bottom: 50px;
 }
 .about__us-headline {
     text-transform: capitalize;
@@ -65,7 +66,7 @@ p {
 }
 .about__us-details {
     display: block;
-    margin-top: 70px;
+    margin-top: 90px;
     padding-right: 70px;
 }
 
