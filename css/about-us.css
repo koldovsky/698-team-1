@@ -35,11 +35,11 @@ p {
     background-color: white;
 }
 .decoration-line-about {
-    margin-top: 50px;
+    margin-top: 90px;
     padding-top: 90px;
     padding-left: 50px;
     color: rgb(238, 46, 20);
-    margin-bottom: 50px;
+    margin-left: 50px;
 }
 .about__us-headline {
     text-transform: capitalize;
@@ -49,6 +49,7 @@ p {
     padding-left: 50px;
     margin-top: 50px;
     padding-top: 50px;
+    margin-left: 50px;;
 }
 .about__us-preview {
     color: black;
@@ -58,7 +59,7 @@ p {
     letter-spacing: 2px;
     line-height: 40px;
     padding: 50px;
-    margin-left: 45px;
+    margin-left: 50px;
     margin-bottom: 35px;
 }
 #ten-days {
@@ -66,7 +67,7 @@ p {
 }
 .about__us-details {
     display: block;
-    margin-top: 90px;
+    margin-top: 110px;
     padding-right: 70px;
 }
 
