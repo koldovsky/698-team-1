@@ -118,7 +118,7 @@ p {
         grid-template-columns: 1fr 1fr 1fr;
         gap: 5px;
         margin-top: 0;
-        background-image: url('../img/about_us/man-at-sea.jpg');
+        background-image: url(https://res2.weblium.site/res/5f0f108db6bcbd0022791194/5f1b1ae5ab132a0021525445_optimized);   /*url('../img/about_us/man-at-sea.jpg');*/
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 50% 50%;
