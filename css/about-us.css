@@ -40,7 +40,6 @@ p {
     padding-left: 50px;
     color: rgb(238, 46, 20);
     margin-left: 50px;
-    background-color: #00bfff;
 }
 .about__us-headline {
     text-transform: capitalize;
@@ -51,7 +50,6 @@ p {
     margin-top: 0;
     padding-top: 0;
     margin-left: 50px;
-    background-color: yellow;
 }
 .about__us-preview {
     color: black;
@@ -69,7 +67,7 @@ p {
 }
 .about__us-details {
     display: block;
-    margin-top: 110px;
+    margin-top: 80px;
     padding-right: 70px;
 }
 
