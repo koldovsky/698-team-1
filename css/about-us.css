@@ -5,12 +5,12 @@
 /*SECTION1*/
 
 p {
-    color: #585858;
+    color: var(--about-us-p-color);
 }
 
 
 .about-para {
-    border: 1px  	#484848;
+    border: 1px var(--about-border-color);
     padding: 10px;
     margin-left: 20px;
     margin-right: 20px;
@@ -29,16 +29,16 @@ p {
 }*/
 
 .about-us-description {
-    background-color: white;
+    background-color: var(--about-us-backcolor);
 }
 .services__we__offer {
-    background-color: white;
+    background-color: var(--about-us-backcolor);
 }
 .decoration-line-about {
     margin-top: 90px;
     padding-top: 0;
     padding-left: 50px;
-    color: rgb(238, 46, 20);
+    color: var(--decor-line-color);
     margin-left: 50px;
 }
 .about__us-headline {
@@ -52,7 +52,7 @@ p {
     margin-left: 50px;
 }
 .about__us-preview {
-    color: black;
+    color: var(--about-preview-color);
     font-size: 45px;
     font-weight: bold;
     font-weight: 700;
@@ -63,7 +63,7 @@ p {
     margin-bottom: 35px;
 }
 #ten-days {
-    color: #00bfff;
+    color: var(--ten-days-color);
 }
 .about__us-details {
     display: block;
@@ -78,7 +78,7 @@ p {
 }
 
 .services-subdiv {
-    border: 1px  	#484848;
+    border: 1px var(--about-border-color);
     padding: 10px;
     margin-left: 45px;
     margin-right: 45px;
@@ -86,7 +86,7 @@ p {
     margin-top: 60px;
     padding-left: 35px;
     padding-right: 50px;
-    background-color: white;
+    background-color: var(--about-us-backcolor);
 }
 
 .about__image {
@@ -94,20 +94,20 @@ p {
     height: 70px;
     padding: 10px;
     margin: 8px;
-    background-color: white;
+    background-color: var(--about-us-backcolor);
 }
 
 .service {
-    color: black;
+    color: var(--service-color);
     size: 24px;
     margin: 8px;
     padding: 8px;
-    background-color: white;
+    background-color: var(--about-us-backcolor);
 }
 .service__description {
     color: var(--about-us-p-color);
     size: 15px;
-    background-color: white;  
+    background-color: var(--about-us-backcolor);  
     margin: 8px;
     padding: 8px;
 }

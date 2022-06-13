@@ -5,10 +5,14 @@
 :root {
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
-    about-us-p-color: #585858;
-    about-para-color: #484848;
-    about-us-backcolor: white;
-    decor-line-color: rgb(238, 46, 20);
+    --about-us-p-color: #585858;
+    --about-para-color: #484848;
+    --about-border-color: #484848;
+    --about-us-backcolor: white;
+    --decor-line-color: rgb(238, 46, 20);
+    --ten-days-color: #00bfff;
+    --about-preview-color: #232b2b;
+    --service-color: #000000; 
 }
 
 * {
