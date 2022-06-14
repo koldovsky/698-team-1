@@ -5,6 +5,23 @@
 :root {
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
+    --color-text-light-background: #505155;
+    --color-text-dark-background: rgba(255,255,255,0.6);
+    --color-text-white: #fff;
+    --color-text-black: #232428;
+    --color-text-blue: rgb(20, 169, 238);
+    --color-text-red: rgb(238, 46, 20);
+    --color-background-dark: #232428;
+    --color-background-light: rgb(255, 255, 255);
+    --color-bottom-blue: rgb(20, 169, 238);
+    /* --about-us-p-color: #585858;
+    --about-para-color: #484848;
+    --about-border-color: #484848;
+    --about-us-backcolor: white;
+    --decor-line-color: rgb(238, 46, 20);
+    --ten-days-color: #00bfff;
+    --about-preview-color: #232b2b;
+    --service-color: #000000;  */
 }
 
 * {
