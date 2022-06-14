@@ -5,12 +5,12 @@
 /*SECTION1*/
 
 p {
-    color: var(--about-us-p-color);
+    color: #585858;
 }
 
 
 .about-para {
-    border: 1px var(--about-border-color);
+    border: 1px #484848;
     padding: 10px;
     margin-left: 20px;
     margin-right: 20px;
@@ -29,21 +29,21 @@ p {
 }*/
 
 .about-us-description {
-    background-color: var(--about-us-backcolor);
+    background-color: white;
 }
 .services__we__offer {
-    background-color: var(--about-us-backcolor);
+    background-color: white;
 }
 .decoration-line-about {
     margin-top: 90px;
     padding-top: 0;
     padding-left: 50px;
-    color: var(--decor-line-color);
+    color: rgb(238, 46, 20);
     margin-left: 50px;
 }
 .about__us-headline {
     text-transform: capitalize;
-    color: var(--about-us-p-color);
+    color: #585858;
     size: 23px;
     margin-bottom: 8px;
     padding-left: 50px;
@@ -52,7 +52,7 @@ p {
     margin-left: 50px;
 }
 .about__us-preview {
-    color: var(--about-preview-color);
+    color: #232b2b;
     font-size: 45px;
     font-weight: bold;
     font-weight: 700;
@@ -63,7 +63,7 @@ p {
     margin-bottom: 35px;
 }
 #ten-days {
-    color: var(--ten-days-color);
+    color: #00bfff;
 }
 .about__us-details {
     display: block;
@@ -78,7 +78,7 @@ p {
 }
 
 .services-subdiv {
-    border: 1px var(--about-border-color);
+    border: 1px #484848;
     padding: 10px;
     margin-left: 45px;
     margin-right: 45px;
@@ -86,7 +86,7 @@ p {
     margin-top: 60px;
     padding-left: 35px;
     padding-right: 50px;
-    background-color: var(--about-us-backcolor);
+    background-color: white;
 }
 
 .about__image {
@@ -94,20 +94,20 @@ p {
     height: 70px;
     padding: 10px;
     margin: 8px;
-    background-color: var(--about-us-backcolor);
+    background-color: white;
 }
 
 .service {
-    color: var(--service-color);
+    color: black;
     size: 24px;
     margin: 8px;
     padding: 8px;
-    background-color: var(--about-us-backcolor);
+    background-color: white;
 }
 .service__description {
-    color: var(--about-us-p-color);
+    color: #585858;
     size: 15px;
-    background-color: var(--about-us-backcolor);  
+    background-color: white;  
     margin: 8px;
     padding: 8px;
 }
