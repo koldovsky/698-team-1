@@ -48,10 +48,17 @@
     margin-bottom: 45px;
 }
 
+@media (min-width: 640px) {
+    .carousel_spots__text {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+}
+
 /* карусель */
-/* .carousel_spots__image_block {
+.carousel_spots__image_block {
     display: flex;
-} */
+}
 
 .carousel_spots__image  {
     width: 270px;
@@ -60,12 +67,32 @@
     margin: auto;
 }
 
+
+@media (min-width: 640px) {
+    .carousel_spots__image_block {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+}
+
+.carousel_spots__image_block-2 {
+    display: none;
+}
+
+@media (min-width: 640px) {
+    .carousel_spots__image_block-2 {
+        display: flex;
+    }
+}
+
+
 /* кнопки slider */
 .carousel_spots__slider {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* z-index: 2; */
+    z-index: 2;
 }
 
 .carousel_spots__slider_button {
@@ -106,6 +133,7 @@
     margin-bottom: 70px;
 }
 
+
 .carousel_spots__dotes_slider {
     list-style-type: none;
 
@@ -144,6 +172,20 @@ li {
     text-align: center;
     margin-bottom: 90px;
 }
+
+@media (min-width: 640px) {
+    .carousel_spots__quote {
+        max-width: 550px;
+    }
+}
+
+@media (min-width: 960px) {
+    .carousel_spots__quote {
+        max-width: 770px;
+    }
+}
+
+
 
 .carousel_spots__quote_image-before::before {
     display: block;
