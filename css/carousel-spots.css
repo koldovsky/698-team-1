@@ -14,7 +14,7 @@
 }
 
 .carousel_spots__section_title_hyphen {
-    color: var(--color-text-red);
+    color: var(--decoration-line-color);
     font-size: 12px;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .carousel_spots__name__color_first {
-    color: var(--color-text-white);
+    color: var(--light-text-color);
 }
 
 .carousel_black__name__color_second {
@@ -56,9 +56,9 @@
 }
 
 /* карусель */
-.carousel_spots__image_block {
+/* .carousel_spots__image_block {
     display: flex;
-}
+} */
 
 .carousel_spots__image  {
     width: 270px;
@@ -108,7 +108,7 @@
 }
 
 .carousel_spots__slider_button:hover {
-    background-color: var(--color-text-white);
+    background-color: var(--light-text-color);
 }
 
 .carousel_spots__slider_button-left {
@@ -159,7 +159,7 @@ li {
 }
 
 .carousel_black__dotes_button:hover {
-    background-color: var(--color-text-white);
+    background-color: var(--light-text-color);
 }
 
 /* цитата */
@@ -208,7 +208,6 @@ li {
     height: 50px;
     margin: auto;
     margin-bottom: 20px;
-    fill: red;
     background-color: var(--color-background-dark);
     z-index: 1;
 }
@@ -227,7 +226,7 @@ li {
 } */
 
 .carousel_spots__quote_text {
-    color: var(--color-text-white);
+    color: var(--light-text-color);
     margin-bottom: 30px;
 }
 
