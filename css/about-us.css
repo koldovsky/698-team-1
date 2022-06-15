@@ -1,34 +1,19 @@
 .generic-section {
     background-color: none;
+    max-width: 1200px;
+    margin: auto;
 }
 
 /*SECTION1*/
-
-p {
-    color: var(--paragraph-color);
-}
-
-.about-para {
-    border: 1px var(--paragraph-color);
-    padding: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-/*.services__we__offer {
-        background-image: url(../img/about-us/man-at-sea-optimized.jpg);
-        min-height: 600px;
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-}*/
-
 .about-us-description {
     background-color:  var(--color-background-light);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.headline__preview .about__us-details {
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 .services__we__offer {
     background-color: var(--color-background-light);
@@ -69,6 +54,28 @@ p {
     margin-top: 50px;
     padding-right: 70px;
 }
+p {
+    color: var(--paragraph-color);
+}
+
+.about-para {
+    border: 1px var(--paragraph-color);
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/*.services__we__offer {
+        background-image: url(../img/about-us/man-at-sea-optimized.jpg);
+        min-height: 600px;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+}*/
 
 /* SECTION 2 - SERVICES*/
 .services__we__offer {
