@@ -2,116 +2,100 @@
     background-color: none;
 }
 
-/*SECTION1*/
+
+/*ABOUT*/
+
 .about-us-description {
-    background-color:  var(--color-background-light);
+    padding-top: 90px;
+    padding-bottom: 40px;
+    background-color: white;
 }
 
-.headline__preview .about__us-details {
-    margin-bottom: 20px;
-    margin-top: 20px;
+.about-inner {
+    padding-left: 24px;
+    padding-right: 24px;
+    width: 272px;
+    height: 827px;
 }
-.services__we__offer {
-    background-color: var(--color-background-light);
+.about-wrapper {
+    margin: 0;
+    padding: 0;
+    width: 272px;
+    height: 827px;
 }
+
 .decoration-line-about {
-    margin-top: 90px;
-    padding-top: 0;
-    padding-left: 50px;
-    color: var(--decoration-line-color);
-    margin-left: 50px;
+    color: red;
 }
-.about__us-headline {
+.about__us-headline  {
     text-transform: capitalize;
-    color: var(--headlines-lighter-color);
+    color: #585858;
     size: 23px;
-    margin-bottom: 8px;
-    padding-left: 50px;
-    margin-top: 0;
-    padding-top: 0;
-    margin-left: 50px;
 }
 .about__us-preview {
-    color: var(--headlines-dark-color);
+    color: #232428;
     font-size: 45px;
     font-weight: bold;
     font-weight: 700;
     letter-spacing: 2px;
     line-height: 40px;
-    padding: 50px;
-    margin-left: 50px;
-    margin-bottom: 35px;
 }
 #ten-days {
-    color: var(--decoration-text-color);
+    color: rgb(20, 169, 238);
 }
 .about__us-details {
     display: block;
-    margin-top: 50px;
-    padding-right: 70px;
 }
-p {
-    color: var(--paragraph-color);
-}
-
-.about-para {
-    border: 1px var(--paragraph-color);
-    padding: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-/*.services__we__offer {
-        background-image: url(../img/about-us/man-at-sea-optimized.jpg);
-        min-height: 600px;
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-}*/
-
-/* SECTION 2 - SERVICES*/
+ p {
+     color: #484848;
+ }
+/*SERVICES*/
 .services__we__offer {
+    padding-top: 90px;
+    padding-bottom: 150px;
+    width: 320px;
+    height: 978px;
+    background-color: white;
     display: inline-block;
-    margin-bottom: 30px;
+    background-image: url(https://res2.weblium.site/res/5f0f108db6bcbd0022791194/5f1b1ae5ab132a0021525445_optimized); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
 .services-subdiv {
-    border: 1px var(--paragraph-color);
-    padding: 10px;
-    margin-left: 24px;
-    margin-right: 24px;
-    margin-bottom: 20px;
-    margin-top: 60px;
-    padding-left: 35px;
-    padding-right: 50px;
-    background-color: var(--color-background-light);
+    margin: 0;
+    padding: 0;
+    width: 272px;
+    height: 282px;
+    background-color: white;
+    box-sizing: border-box;
 }
 
 .about__image {
-    width: 180px;
-    height: 70px;
-    padding: 10px;
-    margin: 8px;
-    background-color: var(--color-background-light);
+    margin: 0;
+    padding: 0;
+    width: 214px;
+    height: 71px;
+    background-color: white;
 }
 
 .service {
-    color: var(--headlines-dark-color);
+    margin: 0;
+    padding: 0;
+    width: 214px;
+    height: 30px;
     size: 24px;
-    margin: 8px;
-    padding: 8px;
-    background-color: var(--color-background-light);
+    background-color: white;
 }
+
 .service__description {
-    color: var(--headlines-lighter-color);
+    margin: 0;
+    padding: 0;
+    width: 214px;
+    height: 89.5px;
     size: 15px;
-    background-color: var(--color-background-light);  
-    margin: 8px;
-    padding: 8px;
+    background-color: white;
+    color: #585858;
 }
 
 
@@ -120,12 +104,15 @@ p {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 5px;
+        padding-top: 130px;
+        padding-bottom: 40px;
     }
 }
 
 @media (min-width: 640px) {
     .services__we__offer {
         display: grid;
+        position: relative;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 5px;
         margin-top: 0;
@@ -136,55 +123,46 @@ p {
     }
 }
 
-
-/*
 @media (min-width: 640px) {
-    .services__we__offer {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  background-image: url(img/about-us/man-at-sea.jpg);
-  background-repeat: no-repeat;
-        background-size: contain;
-        background-size: cover;
-  
-}
-}*/
-
-    /*img {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 3;
-  position: absolute;
-  top: 110px;
-  left: 110px;
+    .decoration-line-about {
+        margin-top: 90px;
+        padding-top: 0;
+        padding-left: 50px;
+        margin-left: 50px;
+    }
+    .about__us-headline {
+        margin-bottom: 8px;
+        padding-left: 50px;
+        margin-top: 0;
+        padding-top: 0;
+        margin-left: 50px;
     }
 }
-*/
-/*.services__we__offer {
-    background-image: url(img/about-us/man-at-sea.jpg);
-    min-height: 600px;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}*/
 
-
-/*
 @media (min-width: 640px) {
-.services__we__offer {
-  display: grid;
-  grid-template-columns: repeat (1fr 1fr 1fr);
-  grid-template-rows: 200px 100px 150px;
-  margin-top: 5rem;
-  background-image: url(img/about-us/man-at-sea.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+    .about__us-preview {
+        font-weight: bold;
+        font-weight: 700;
+        letter-spacing: 2px;
+        line-height: 40px;
+        padding: 50px;
+        margin-left: 50px;
+        margin-bottom: 35px;
+    }
+    .about__us-details {
+        display: block;
+        margin-top: 50px;
+        padding-right: 70px;
+    }
+    .services-subdiv {
+        border: 1px var(--paragraph-color);
+        padding: 10px;
+        margin-left: 24px;
+        margin-right: 24px;
+        margin-bottom: 20px;
+        margin-top: 60px;
+        padding-left: 35px;
+        padding-right: 50px;
+        background-color: var(--color-background-light);
+    }
 }
-}
-*/
