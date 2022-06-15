@@ -200,7 +200,7 @@ li {
     height: 1px;
     background-color: var(--color-text-dark-background);
     position: absolute;
-    /* padding: 40px 24px 0; */
+    margin: 40px 0px;
     left: 0;
     right: 0;
     opacity: 0.5;
