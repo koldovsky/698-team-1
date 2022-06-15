@@ -1,7 +1,5 @@
 .generic-section {
     background-color: none;
-    max-width: 1200px;
-    margin: auto;
 }
 
 /*SECTION1*/
@@ -86,9 +84,9 @@ p {
 .services-subdiv {
     border: 1px var(--paragraph-color);
     padding: 10px;
-    margin-left: 45px;
-    margin-right: 45px;
-    margin-bottom: 400px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 20px;
     margin-top: 60px;
     padding-left: 35px;
     padding-right: 50px;
