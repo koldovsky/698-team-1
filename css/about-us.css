@@ -5,11 +5,11 @@
 /*SECTION1*/
 
 p {
-    color: #585858;
+    color: var(--paragraph-color);
 }
 
 .about-para {
-    border: 1px #484848;
+    border: 1px var(--paragraph-color);
     padding: 10px;
     margin-left: 20px;
     margin-right: 20px;
@@ -28,21 +28,21 @@ p {
 }*/
 
 .about-us-description {
-    background-color: white;
+    background-color:  var(--color-background-light);
 }
 .services__we__offer {
-    background-color: white;
+    background-color: var(--color-background-light);
 }
 .decoration-line-about {
     margin-top: 90px;
     padding-top: 0;
     padding-left: 50px;
-    color: rgb(238, 46, 20);
+    color: var(--decoration-line-color);
     margin-left: 50px;
 }
 .about__us-headline {
     text-transform: capitalize;
-    color: #585858;
+    color: var(--headlines-lighter-color);
     size: 23px;
     margin-bottom: 8px;
     padding-left: 50px;
@@ -51,7 +51,7 @@ p {
     margin-left: 50px;
 }
 .about__us-preview {
-    color: #232b2b;
+    color: var(--headlines-dark-color);
     font-size: 45px;
     font-weight: bold;
     font-weight: 700;
@@ -62,7 +62,7 @@ p {
     margin-bottom: 35px;
 }
 #ten-days {
-    color: #00bfff;
+    color: var(--decoration-text-color);
 }
 .about__us-details {
     display: block;
@@ -77,7 +77,7 @@ p {
 }
 
 .services-subdiv {
-    border: 1px #484848;
+    border: 1px var(--paragraph-color);
     padding: 10px;
     margin-left: 45px;
     margin-right: 45px;
@@ -85,7 +85,7 @@ p {
     margin-top: 60px;
     padding-left: 35px;
     padding-right: 50px;
-    background-color: white;
+    background-color: var(--color-background-light);
 }
 
 .about__image {
@@ -93,20 +93,20 @@ p {
     height: 70px;
     padding: 10px;
     margin: 8px;
-    background-color: white;
+    background-color: var(--color-background-light);
 }
 
 .service {
-    color: black;
+    color: var(--headlines-dark-color);
     size: 24px;
     margin: 8px;
     padding: 8px;
-    background-color: white;
+    background-color: var(--color-background-light);
 }
 .service__description {
-    color: #585858;
+    color: var(--headlines-lighter-color);
     size: 15px;
-    background-color: white;  
+    background-color: var(--color-background-light);  
     margin: 8px;
     padding: 8px;
 }
