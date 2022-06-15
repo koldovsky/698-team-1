@@ -5,8 +5,6 @@
 /*SECTION1*/
 .about-us-description {
     background-color:  var(--color-background-light);
-    margin-bottom: 20px;
-    margin-top: 20px;
 }
 
 .headline__preview .about__us-details {
