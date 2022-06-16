@@ -14,7 +14,7 @@
 .about-us-description {
     padding-top: 5px;
     padding-bottom: 5px;
-    background-color: yellow;
+    background-color: white;
 }
 /*
 @media (min-width: 640px) {
@@ -58,7 +58,7 @@
     color: rgb(20, 169, 238);
 }
 .about__us-details {
-    background-color: pink;
+    background-color: white;
     display: block;
     padding-bottom: 20px;
 }
