@@ -108,14 +108,12 @@
 @media (min-width: 640px) {
 .about-us-description {
     margin-left: 100px;
-    margin-right: 100px;
 }
 }
 
 @media (min-width: 640px) {
 .services-wrapper {
     margin-left: 100px;
-    margin-right: 100px;
     margin-bottom: 500px;
 }
 }
