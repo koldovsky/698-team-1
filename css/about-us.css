@@ -148,6 +148,8 @@
         grid-template-columns: repeat(3, 300px);
         gap: 5px;
         margin-top: 0;
+        background-size: cover;
+        background-size: 100%;
     }
     .services-wrapper .services-subdiv {
     width: 300px;
@@ -167,6 +169,68 @@
     .service__description {
     width: 280px;
     height: 100px;
+    }
+}
+
+
+@media (min-width: 780px) {
+    .services-wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 400px);
+        gap: 5px;
+        margin-top: 0;
+        background-size: cover;
+        background-size: 100%;
+    }
+    .services-wrapper .services-subdiv {
+    width: 320px;
+    height: 320px;
+    }
+}
+
+@media (min-width: 780px) {
+    .about__image {    
+        height: 110px;
+        width: 290px;
+    }
+    .service {
+        width: 310px;
+        height: 37px;
+    }
+    .service__description {
+    width: 290px;
+    height: 110px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .services-wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 450px);
+        gap: 5px;
+        margin-top: 0;
+        background-size: cover;
+        background-size: 100%;
+    }
+    .services-wrapper .services-subdiv {
+    width: 330px;
+    height: 330px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .about__image {    
+        height: 120px;
+        width: 300px;
+    }
+    .service {
+        width: 320px;
+        height: 45px;
+    }
+    .service__description {
+    width: 300px;
+    height: 120px;
     }
 }
 /*
