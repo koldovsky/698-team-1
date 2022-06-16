@@ -76,8 +76,8 @@
     margin: 0;
     padding: 0;
     background-color: white;
-    /*height: 106px;
-    width: 320px;*/
+    height: 116px;
+    width: 351px;
 }
 
 .service {
@@ -87,8 +87,8 @@
     background-color: white;
     padding-top: 10px;
     padding-bottom: 10px;
-    /*width: 324px;
-    height: 30px;*/
+    width: 280px;
+    height: 30px;
 }
 
 .service__description {
@@ -99,8 +99,15 @@
     color: #585858;
     padding-top: 10px;
     padding-bottom: 10px;
+    width: 350px;
+    height: 100px;
 }
 
+@media (min-width: 640px) {
+.generic-section {
+    margin: auto;
+}
+}
 @media (min-width: 640px) {
     .about-us-description {
         display: flex;
@@ -138,6 +145,21 @@
     .services-wrapper .services-subdiv {
     width: 300px;
     height: 300px;
+    }
+}
+
+@media (min-width: 640px) {
+    .about__image {    
+        height: 100px;
+        width: 280px;
+    }
+    .service {
+        width: 300px;
+        height: 33px;
+    }
+    .service__description {
+    width: 280px;
+    height: 100px;
     }
 }
 /*
