@@ -13,8 +13,8 @@
 /*ABOUT*/
 
 .about-us-description {
-    padding-top: 90px;
-    padding-bottom: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: yellow;
     display: flex;
     flex-direction: column;
@@ -22,14 +22,15 @@
     align-items: center;
 }
 
-@media (min-width: 650px) {
+@media (min-width: 640px) {
     .about-us-description {
-    display: flex;
-    padding: 60px;
-    flex-direction: row;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+        padding-top: 30px;
+        padding-bottom: 20px;
     }
 }
-
 .about-inner {
     padding-right: 24px;
     padding-left: 24px;
@@ -75,8 +76,10 @@
  }
 /*SERVICES*/
 .services__we__offer {
-    padding-top: 90px;
-    padding-bottom: 150px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
     width: 320px;
     height: 978px;
     background-color: white;
@@ -120,17 +123,6 @@
     size: 15px;
     background-color: white;
     color: #585858;
-}
-
-
-@media (min-width: 640px) {
-    .about-us-description {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 5px;
-        padding-top: 130px;
-        padding-bottom: 40px;
-    }
 }
 
 @media (min-width: 640px) {
