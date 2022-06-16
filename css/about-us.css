@@ -28,7 +28,7 @@
     font-weight: 700;
     letter-spacing: 2px;
     line-height: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 #ten-days {
     color: rgb(20, 169, 238);
@@ -37,13 +37,13 @@
     background-color: white;
     display: block;
     margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 .about__us-details-preview {
     background-color: white;
     display: block;
     margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 .about-para {
     padding-top: 10px;
