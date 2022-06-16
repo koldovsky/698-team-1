@@ -34,7 +34,8 @@
 .about__us-details {
     background-color: white;
     display: block;
-    padding-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 .about-para {
     padding-top: 10px;
@@ -94,32 +95,23 @@
     padding-bottom: 10px;
 }
 
-@media (min-width: 320px) {
-    .about-us-details {
-        display: flex;
-        flex-direction: row;
+@media (min-width: 640px) {
+    .about-us-description > .about__us-details {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
     }
 }
 
 @media (min-width: 640px) {
-    .about-us-details {
-        display: flex;
-        flex-direction: row;
-        margin: 50px;
-    }
-    }
-
-
-@media (min-width: 640px) {
-  .services-subdiv {  
+    .services__we__offer .services-subdiv {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 5px;
         margin-top: 0;
-        background-image: url(https://res2.weblium.site/res/5f0f108db6bcbd0022791194/5f1b1ae5ab132a0021525445_optimized);   
+        background-image: url(https://res2.weblium.site/res/5f0f108db6bcbd0022791194/5f1b1ae5ab132a0021525445_optimized);   /*url('../img/about_us/man-at-sea.jpg');*/
         background-repeat: no-repeat;
         background-size: cover;
-        box-sizing: border-box;
-        margin: 50px;
+        background-position: 50% 50%;
     }
 }
