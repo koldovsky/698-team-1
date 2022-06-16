@@ -2,11 +2,12 @@
     background-color: none;
     padding: 10px;
 }
+/*
 @media (min-width: 650px) {
     .generic-section {
         padding: 60px;
     }
-}
+}*/
 
 /*ABOUT*/
 
@@ -14,17 +15,15 @@
     padding-top: 5px;
     padding-bottom: 5px;
     background-color: yellow;
-    display: flex;
-    flex-direction: column;
 }
-
+/*
 @media (min-width: 640px) {
     .about-us-description {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 5px;
     }
-}
+}*/
 .about-inner {
     padding-right: 24px;
     padding-left: 24px;
@@ -60,8 +59,11 @@
 }
 .about__us-details {
     background-color: pink;
-    display: flex;
-    flex-direction: column;
+    display: block;
+}
+.about-para {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
  p {
      color: #484848;
@@ -117,6 +119,7 @@
     color: #585858;
 }
 
+/*
 @media (min-width: 640px) {
     .services__we__offer {
         display: grid;
@@ -124,7 +127,7 @@
         grid-template-columns: 1fr 1fr 1fr;
         gap: 5px;
         margin-top: 0;
-        background-image: url(https://res2.weblium.site/res/5f0f108db6bcbd0022791194/5f1b1ae5ab132a0021525445_optimized);   /*url('../img/about_us/man-at-sea.jpg');*/
+        background-image: url(https://res2.weblium.site/res/5f0f108db6bcbd0022791194/5f1b1ae5ab132a0021525445_optimized);   /*url('../img/about_us/man-at-sea.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 50% 50%;
@@ -145,7 +148,9 @@
         padding-top: 0;
         margin-left: 50px;
     }
-}
+}/*/
+
+
 /*
 @media (min-width: 640px) {
     .about__us-preview {
