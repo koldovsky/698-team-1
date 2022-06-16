@@ -2,12 +2,6 @@
     background-color: none;
     padding: 10px;
 }
-/*
-@media (min-width: 650px) {
-    .generic-section {
-        padding: 60px;
-    }
-}*/
 
 /*ABOUT*/
 
@@ -15,27 +9,6 @@
     padding-top: 5px;
     padding-bottom: 5px;
     background-color: white;
-}
-
-/*
-@media (min-width: 640px) {
-    .about-us-description {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 5px;
-    }
-}*/
-.about-inner {
-    padding-right: 24px;
-    padding-left: 24px;
-    /*width: 272px;
-    height: 827px;*/
-}
-.about-wrapper {
-    margin: 0;
-    padding: 0;
-    /*width: 272px;
-    height: 827px;*/
 }
 
 .decoration-line-about {
@@ -120,14 +93,14 @@
 }
 
 @media (min-width: 320px) {
-    .about-us-description > .about-wrapper {
+    .about-us-details {
         display: flex;
         flex-direction: row;
     }
 }
 
 @media (min-width: 640px) {
-    .about-us-description > .about-wrapper > .about__us-details {
+    .about-us-details {
         display: flex;
         flex-direction: row;
         margin: 50px;
@@ -136,8 +109,7 @@
 
 
 @media (min-width: 640px) {
-    .services__we__offer > .services-wrapper > .services-subdiv {
-    
+  .services-subdiv {  
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
@@ -148,78 +120,3 @@
         background-size: cover;
     }
 }
-    /*.about__us-details {
-        display: block;
-        margin-top: 50px;
-        padding-right: 70px;
-    }
-    .about__image {
-        width: 300px;
-        height: 100px;
-    }
-    .service {
-        width: 300px;
-        height: 33px;
-    }
-}
- 
-
-/*
-@media (min-width: 640px) {
-    .services__we__offer {
-        display: grid;
-        position: relative;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 5px;
-        margin-top: 0;
-        background-image: url(https://res2.weblium.site/res/5f0f108db6bcbd0022791194/5f1b1ae5ab132a0021525445_optimized);   /*url('../img/about_us/man-at-sea.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-}
-
-@media (min-width: 640px) {
-    .decoration-line-about {
-        margin-top: 90px;
-        padding-top: 0;
-        padding-left: 50px;
-        margin-left: 50px;
-    }
-    .about__us-headline {
-        margin-bottom: 8px;
-        padding-left: 50px;
-        margin-top: 0;
-        padding-top: 0;
-        margin-left: 50px;
-    }
-}/*/
-
-
-/*
-@media (min-width: 640px) {
-    .about__us-preview {
-        font-weight: bold;
-        font-weight: 700;
-        letter-spacing: 2px;
-        line-height: 40px;
-        padding: 50px;
-        margin-left: 50px;
-        margin-bottom: 35px;
-    }
-    .about__us-details {
-        display: block;
-        margin-top: 50px;
-        padding-right: 70px;
-    }
-    .services-subdiv {
-        border: 1px var(--paragraph-color);
-        padding: 10px;
-        margin-left: 24px;
-        margin-right: 24px;
-        margin-bottom: 20px;
-        margin-top: 60px;
-        padding-left: 35px;
-        padding-right: 50px;
-        background-color: var(--color-background-light);
-    }
-}*/
