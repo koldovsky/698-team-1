@@ -148,10 +148,6 @@
         grid-template-columns: repeat(3, 300px);
         gap: 5px;
         margin-top: 0;
-        background-image: url(https://res2.weblium.site/res/5f0f108db6bcbd0022791194/5f1b1ae5ab132a0021525445_optimized);   /*url('../img/about_us/man-at-sea.jpg');*/
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 50% 50%;
     }
     .services-wrapper .services-subdiv {
     width: 300px;
