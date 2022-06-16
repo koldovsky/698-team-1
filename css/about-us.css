@@ -1,7 +1,5 @@
 .generic-section {
     background-color: none;
-    padding: 10px;
-    margin-left: 10px;
     margin-bottom: 300px;
 }
 
@@ -71,7 +69,6 @@
     height: 282px;*/
     background-color: white;
     box-sizing: border-box;
-    margin: 20px;
 }
 
 .about__image {
