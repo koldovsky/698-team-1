@@ -1,6 +1,8 @@
 .generic-section {
     background-color: none;
     padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 300px;
 }
 
 /*ABOUT*/
@@ -104,8 +106,17 @@
 }
 
 @media (min-width: 640px) {
-.generic-section {
-    margin: auto;
+.about-us-description {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+}
+
+@media (min-width: 640px) {
+.services-wrapper {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 500px;
 }
 }
 @media (min-width: 640px) {
