@@ -97,16 +97,12 @@
 .about__image {
     margin: 0;
     padding: 0;
-    width: 214px;
-    height: 71px;
     background-color: white;
 }
 
 .service {
     margin: 0;
     padding: 0;
-    width: 214px;
-    height: 30px;
     size: 24px;
     background-color: white;
 }
@@ -114,8 +110,6 @@
 .service__description {
     margin: 0;
     padding: 0;
-    width: 214px;
-    height: 89.5px;
     size: 15px;
     background-color: white;
     color: #585858;
