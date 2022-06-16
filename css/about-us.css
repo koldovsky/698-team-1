@@ -98,6 +98,8 @@
     margin: 0;
     padding: 0;
     background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .service {
@@ -105,6 +107,8 @@
     padding: 0;
     size: 24px;
     background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .service__description {
@@ -113,6 +117,8 @@
     size: 15px;
     background-color: white;
     color: #585858;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /*
