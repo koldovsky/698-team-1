@@ -1,194 +1,238 @@
-.generic-section {
-    background-color: none;
-    max-width: 1200px;
-    margin: auto;
-}
 
-/*SECTION1*/
+/*ABOUT*/
+
 .about-us-description {
-    background-color:  var(--color-background-light);
-    margin-bottom: 20px;
-    margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: white;
 }
 
-.headline__preview .about__us-details {
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-.services__we__offer {
-    background-color: var(--color-background-light);
-}
 .decoration-line-about {
-    margin-top: 90px;
-    padding-top: 0;
-    padding-left: 50px;
-    color: var(--decoration-line-color);
-    margin-left: 50px;
+    color: red;
 }
-.about__us-headline {
+.about__us-headline  {
     text-transform: capitalize;
-    color: var(--headlines-lighter-color);
+    color: #585858;
     size: 23px;
-    margin-bottom: 8px;
-    padding-left: 50px;
-    margin-top: 0;
-    padding-top: 0;
-    margin-left: 50px;
 }
 .about__us-preview {
-    color: var(--headlines-dark-color);
+    color: #232428;
     font-size: 45px;
     font-weight: bold;
     font-weight: 700;
     letter-spacing: 2px;
     line-height: 40px;
-    padding: 50px;
-    margin-left: 50px;
-    margin-bottom: 35px;
+    padding-bottom: 10px;
 }
 #ten-days {
-    color: var(--decoration-text-color);
+    color: rgb(20, 169, 238);
 }
 .about__us-details {
+    background-color: white;
     display: block;
-    margin-top: 50px;
-    padding-right: 70px;
+    margin-top: 40px;
+    margin-bottom: 10px;
 }
-p {
-    color: var(--paragraph-color);
+.about__us-details-preview {
+    background-color: white;
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 10px;
 }
-
 .about-para {
-    border: 1px var(--paragraph-color);
-    padding: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 0;
-    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-/*.services__we__offer {
-        background-image: url(../img/about-us/man-at-sea-optimized.jpg);
-        min-height: 600px;
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-}*/
-
-/* SECTION 2 - SERVICES*/
+ p {
+     color: #484848;
+ }
+/*SERVICES*/
 .services__we__offer {
+    /*width: 320px;
+    height: 978px;*/
+    background-color: white;
     display: inline-block;
-    margin-bottom: 30px;
+    background-image: url(https://res2.weblium.site/res/5f0f108db6bcbd0022791194/5f1b1ae5ab132a0021525445_optimized); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
 }
-
 .services-subdiv {
-    border: 1px var(--paragraph-color);
-    padding: 10px;
-    margin-left: 45px;
-    margin-right: 45px;
-    margin-bottom: 400px;
-    margin-top: 60px;
-    padding-left: 35px;
-    padding-right: 50px;
-    background-color: var(--color-background-light);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /*width: 272px;
+    height: 282px;*/
+    background-color: white;
+    box-sizing: border-box;
 }
 
 .about__image {
-    width: 180px;
-    height: 70px;
-    padding: 10px;
-    margin: 8px;
-    background-color: var(--color-background-light);
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    height: 116px;
+    width: 351px;
 }
 
 .service {
-    color: var(--headlines-dark-color);
+    margin: 0;
+    padding: 0;
     size: 24px;
-    margin: 8px;
-    padding: 8px;
-    background-color: var(--color-background-light);
-}
-.service__description {
-    color: var(--headlines-lighter-color);
-    size: 15px;
-    background-color: var(--color-background-light);  
-    margin: 8px;
-    padding: 8px;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 280px;
+    height: 30px;
 }
 
+.service__description {
+    margin: 0;
+    padding: 0;
+    size: 15px;
+    background-color: white;
+    color: #585858;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 350px;
+    height: 100px;
+}
+/*
+@media (min-width: 640px) {
+.about-us-description {
+    margin-left: 100px;
+}
+}*/
 
 @media (min-width: 640px) {
+.services-wrapper {
+    margin-left: 100px;
+    margin-bottom: 500px;
+}
+}
+@media (min-width: 640px) {
     .about-us-description {
+        display: flex;
+        flex-direction: row;
+      }
+      
+      .about-us-description > .about__us-details-preview {
+        width: 500px;
+      }
+      
+      .about-us-description > .about__us-details {
+        width: 500px;
+      }    
+}
+/*
+@media (min-width: 640px) {
+    .about-us-description > .about__us-details {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 5px;
     }
-}
+}*/
 
 @media (min-width: 640px) {
-    .services__we__offer {
+    .services-wrapper {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 300px);
         gap: 5px;
         margin-top: 0;
-        background-image: url(https://res2.weblium.site/res/5f0f108db6bcbd0022791194/5f1b1ae5ab132a0021525445_optimized);   /*url('../img/about_us/man-at-sea.jpg');*/
-        background-repeat: no-repeat;
         background-size: cover;
-        background-position: 50% 50%;
+        background-size: 100%;
+    }
+    .services-wrapper .services-subdiv {
+    width: 300px;
+    height: 300px;
+    }
+}
+
+@media (min-width: 640px) {
+    .about__image {    
+        height: 100px;
+        width: 280px;
+    }
+    .service {
+        width: 300px;
+        height: 33px;
+    }
+    .service__description {
+    width: 280px;
+    height: 100px;
     }
 }
 
 
-/*
-@media (min-width: 640px) {
-    .services__we__offer {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  background-image: url(img/about-us/man-at-sea.jpg);
-  background-repeat: no-repeat;
-        background-size: contain;
+@media (min-width: 780px) {
+    .services-wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 400px);
+        gap: 5px;
+        margin-top: 0;
         background-size: cover;
+        background-size: 100%;
+    }
+    .services-wrapper .services-subdiv {
+    width: 320px;
+    height: 320px;
+    }
+}
+
+@media (min-width: 780px) {
+    .about__image {    
+        height: 110px;
+        width: 290px;
+    }
+    .service {
+        width: 310px;
+        height: 37px;
+    }
+    .service__description {
+    width: 290px;
+    height: 110px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .services-wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 450px);
+        gap: 5px;
+        margin-top: 0;
+        background-size: cover;
+        background-size: 100%;
+    }
+    .services-wrapper .services-subdiv {
+    width: 330px;
+    height: 330px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .about__image {    
+        height: 120px;
+        width: 300px;
+    }
+    .service {
+        width: 320px;
+        height: 45px;
+    }
+    .service__description {
+    width: 300px;
+    height: 120px;
+    }
+}
+/*
+#container {
+    display: grid;
+    grid: repeat(2, 280px) / auto-flow 300px;
+  }
   
-}
-}*/
-
-    /*img {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 3;
-  position: absolute;
-  top: 110px;
-  left: 110px;
-    }
-}
-*/
-/*.services__we__offer {
-    background-image: url(img/about-us/man-at-sea.jpg);
-    min-height: 600px;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}*/
-
-
-/*
-@media (min-width: 640px) {
-.services__we__offer {
-  display: grid;
-  grid-template-columns: repeat (1fr 1fr 1fr);
-  grid-template-rows: 200px 100px 150px;
-  margin-top: 5rem;
-  background-image: url(img/about-us/man-at-sea.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-}
-*/
+  #container > div {
+    background-color: #8ca0ff;
+    width: 50px;
+    height: 50px;
+  }
+  
