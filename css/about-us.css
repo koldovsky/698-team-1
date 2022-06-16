@@ -1,7 +1,5 @@
 .generic-section {
     background-color: none;
-    display: flex;
-    justify-content: center;
     padding: 10px;
 }
 @media (min-width: 650px) {
@@ -18,8 +16,6 @@
     background-color: yellow;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 @media (min-width: 640px) {
