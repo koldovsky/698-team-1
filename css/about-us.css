@@ -11,8 +11,8 @@
 /*ABOUT*/
 
 .about-us-description {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     background-color: yellow;
     display: flex;
     flex-direction: column;
@@ -23,8 +23,6 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 5px;
-        padding-top: 30px;
-        padding-bottom: 20px;
     }
 }
 .about-inner {
@@ -64,8 +62,6 @@
     background-color: pink;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
  p {
      color: #484848;
