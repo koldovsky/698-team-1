@@ -1,7 +1,23 @@
+@media (min-width:320px) {
+
+.about_norway {
+    background-color: var(--color-text-dark-background);
+}
+.about_norway__main {
+    background-color: var(--color-text-dark-background);
+}
+.about_norway-picture {
+    background-color: var(--color-text-dark-background);
+}
 .about_norway-line {
     color: var(--decoration-line-color);
 }
 h2 {
     text-transform: uppercase;
     color: var(--paragraph-color);
+}
+h3 {
+    color: var(--paragraph-color) ;
+    }
+
 }
