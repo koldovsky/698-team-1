@@ -71,24 +71,18 @@
     background-color: white;
     box-sizing: border-box;
 }
-/*
+
 .about__image {
     margin: 0;
     padding: 0;
     background-color: white;
     height: 116px;
     width: 351px;
-}*/
+}
 .image-section {
     width: 482px;
     height: 168px;
-    background-color: white;
  }
- .about__image {
-    width: 100%;
-    height: 100%;
- }
-
 .service {
     margin: 0;
     padding: 0;
