@@ -12,9 +12,25 @@
     margin-bottom: 20px;
 }
 
+@media (min-width: 960px) {
+    .carousel_spots__section_title {
+        font-size: 13px;
+        letter-spacing: 0.4px;
+        line-height: 21px;
+    }
+}
+
 .carousel_spots__section_title_hyphen {
     color: var(--decoration-line-color);
     font-size: 12px;
+}
+
+@media (min-width: 960px) {
+    .carousel_spots__section_title_hyphen {
+        font-size: 13px;
+        letter-spacing: 0.4px;
+        line-height: 21px;
+    }
 }
 
 /* підзаголовок */
@@ -35,6 +51,14 @@
         font-size: 40px;
         letter-spacing: 1.2px;
         line-height: 48px;
+    }
+}
+
+@media (min-width: 960px) {
+    .carousel_spots__name {
+        font-size: 45px;
+        letter-spacing: 1.35px;
+        line-height: 54px;
     }
 }
 
@@ -63,9 +87,7 @@
 }
 
 /* карусель */
-/* .carousel_spots__image_block {
-    display: flex;
-} */
+
 .carousel_spots__image_comtainer {
     width: 270px;
     height: 245px;
@@ -87,15 +109,36 @@
     }
 }
 
+@media (min-width: 960px) {
+    .carousel_spots__image_block {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
 .carousel_spots__image_block-2 {
+    display: none;
+}
+
+.carousel_spots__image_block-3 {
     display: none;
 }
 
 @media (min-width: 640px) {
     .carousel_spots__image_block-2 {
-        display: flex;
+        display: block;
+        /* height: 50%; */
     }
 }
+
+@media (min-width: 960px) {
+    .carousel_spots__image_block-3 {
+        display: block;
+        /* height: 50%; */
+    }
+}
+
+
 
 
 /* кнопки slider */
@@ -146,6 +189,14 @@
 @media (min-width: 640px) {
     .carousel_spots__dotes {
         margin-top: 15px;
+        margin-bottom: 60px;
+    }
+}
+
+@media (min-width: 960px) {
+    .carousel_spots__dotes {
+        margin-top: 20px;
+        margin-bottom: 60px;
     }
 }
 
@@ -270,6 +321,14 @@
         bottom: 550px;
     }
 }
+
+@media (min-width: 960px) {
+    .carousel_spots__quote_line-up {
+        bottom: 510px;
+    }
+}
+
+
 
 .carousel_spots__quote_line-down {
     display: none;
