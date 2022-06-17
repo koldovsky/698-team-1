@@ -204,9 +204,9 @@ p {
 
     .service__description {
         width: 300px;
-        height: 100px; */
+        height: 100px;
         /* margin-bottom: 30px;
-        padding-bottom: 50px;
+        padding-bottom: 50px; */
     }
 }
 
@@ -246,7 +246,6 @@ p {
     padding-bottom: 50px;
     }
 } */
-
 
 @media (min-width: 960px) {
     .services-wrapper {
