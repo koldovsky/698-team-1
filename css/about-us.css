@@ -28,18 +28,18 @@
     color: rgb(20, 169, 238);
 }
 .about__us-details {
-    background-color: pink;
+    background-color: white;
     display: block;
     margin-top: 40px;
     margin-bottom: 10px;
-    padding-left: 25px;
+    padding: 8px;
 }
 .about__us-details-preview {
     background-color: white;
     display: block;
     margin-top: 40px;
     margin-bottom: 10px;
-    padding-left: 25px;
+    padding: 8px;
 }
 .about-para {
     padding-top: 10px;
@@ -120,12 +120,19 @@
 @media (min-width: 640px) {
 .about__us-details-preview {
 margin-left: 50px;
-margin-right: 20px;
+}
+}
+
+@media (min-width: 640px) {
+.about__us-details {
+margin-right: 50px;
+}
 }
 @media (min-width: 640px) {
 .services-subdiv {
-    margin-left: 50px;
-    margin-bottom: 500px;
+margin-left: 50px;
+margin-right: 50px;
+margin-bottom: 500px;
 }
 }
 @media (min-width: 640px) {
