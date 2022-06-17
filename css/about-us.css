@@ -33,6 +33,7 @@
     margin-top: 40px;
     margin-bottom: 10px;
     padding: 8px;
+    margin-left: 30px;
 }
 .about__us-details-preview {
     background-color: white;
@@ -75,7 +76,6 @@
 .about__image {
     margin: 0;
     padding: 0;
-    background-color: white;
     height: 116px;
     width: 351px;
 }
@@ -113,17 +113,19 @@
 }*/
 @media (min-width: 640px) {
 .about__us-details-preview {
-margin-left: 50px;
+margin-left: 100px;
 }
 }
 
 @media (min-width: 640px) {
 .about__us-details {
+margin-right: 100px;
 }
 }
 @media (min-width: 640px) {
 .services-subdiv {
-margin-left: 50px;
+margin-left: 100px;
+margin-right: 100px;
 margin-bottom: 500px;
 }
 }
@@ -239,6 +241,38 @@ margin-bottom: 500px;
     .service__description {
     width: 300px;
     height: 120px;
+    }
+}
+
+
+
+@media (min-width: 1700px) {
+    .services-wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 450px);
+        gap: 5px;
+        margin-top: 0;
+        background-size: cover;
+        background-size: 100%;
+    }
+    .services-wrapper .services-subdiv {
+    width: 350px;
+    height: 350px;
+    }
+}
+
+@media (min-width: 1700px) {
+    /*.about__image {    
+        height: 120px;
+        width: 300px;
+    }*/
+    .service {
+        width: 325px;
+        height: 45px;
+    }
+    .service__description {
+    width: 310px;
+    height: 130px;
     }
 }
 /*
