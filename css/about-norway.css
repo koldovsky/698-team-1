@@ -1,17 +1,18 @@
 @media (min-width:320px) {
+
+.about_norway {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    padding: 120px 20px 120px 20px;
+    text-align: center;
+    background-color: var(--color-background-light);
+}
 .about__norway-description {
     weight: 272px;
     height: 294px;
 }    
-.about_norway {
-    background-color: var(--color-text-dark-background);
-}
-.about_norway__main {
-    background-color: var(--color-text-dark-background);
-}
-.about_norway-picture {
-    background-color: var(--color-text-dark-background);
-}
+
 .about_norway-line {
     color: var(--decoration-line-color);
     font-size: 12px;    
