@@ -1,5 +1,8 @@
 @media (min-width:320px) {
-
+.about__norway-description {
+    weight: 272px;
+    height: 294px;
+}    
 .about_norway {
     background-color: var(--color-text-dark-background);
 }
