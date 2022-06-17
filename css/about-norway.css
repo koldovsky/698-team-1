@@ -11,6 +11,7 @@
 }
 .about_norway-line {
     color: var(--decoration-line-color);
+    font-size: 12px;
 }
 h2 {
     text-transform: uppercase;
