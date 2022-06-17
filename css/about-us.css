@@ -119,13 +119,11 @@ margin-left: 50px;
 
 @media (min-width: 640px) {
 .about__us-details {
-margin-right: 50px;
 }
 }
 @media (min-width: 640px) {
 .services-subdiv {
 margin-left: 50px;
-margin-right: 50px;
 margin-bottom: 500px;
 }
 }
