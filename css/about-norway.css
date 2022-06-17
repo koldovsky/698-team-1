@@ -17,18 +17,18 @@
     color: var(--decoration-line-color);
     font-size: 12px;    
 }
-h2 {
+.about__norway-title {
     text-transform: uppercase;
     color: var(--paragraph-color);
     font-family:'Roboto', sans-serif;
     font-size: 12px;
 }
-h3 {
+.about__norway-title-article {
     color: var(--paragraph-color);
     font-family:'Roboto', sans-serif;
     font-size: 34px;
     }
-p {
+.about__norway-text {
     color: var(--paragraph-color);
     font-family:'Roboto', sans-serif;
     font-size: 19px;
