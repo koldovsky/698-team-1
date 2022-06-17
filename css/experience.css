@@ -1,0 +1,77 @@
+.experience__content {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    padding: 120px 20px 120px 20px;
+    text-align: center;
+    background-image: url(https://res2.weblium.site/res/5f0f108db6bcbd0022791194/5f153f25c3ffc60021186fee_optimized_1200);
+}
+
+.experience_header {
+    color: #505155;
+}
+
+.experience_subtitle {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.experience_title {
+    font-size: 34px;
+    margin-top: 20px;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.experience_description {
+    font-size: 19px;
+    line-height: 1.7;
+    margin-top: 30px;
+
+}
+
+.experience_stories {
+    margin-top: 70px;
+
+}
+
+.story_hidden {
+    opacity: 0;
+}
+
+.story_photo {
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.story_author {
+    color: #232428;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.story_text {
+    color: #707070;
+    font-size: 17px;
+    line-height: 1.7;
+    margin-top: 30px;
+}
+
+.story_date {
+    margin-top: 30px;
+    color: #505155;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+@media (min-width: 640px) {
+
+}
+
+@media (min-width: 960px) {
+
+}
