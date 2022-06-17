@@ -28,7 +28,7 @@
     color: rgb(20, 169, 238);
 }
 .about__us-details {
-    background-color: white;
+    background-color: pink;
     display: block;
     margin-top: 40px;
     margin-bottom: 10px;
@@ -46,6 +46,7 @@
  p {
      color: #484848;
  }
+ 
 /*SERVICES*/
 .services__we__offer {
     /*width: 320px;
@@ -66,14 +67,23 @@
     background-color: white;
     box-sizing: border-box;
 }
-
+/*
 .about__image {
     margin: 0;
     padding: 0;
     background-color: white;
     height: 116px;
     width: 351px;
-}
+}*/
+.image-section {
+    width: 482px;
+    height: 168px;
+    background-color: white;
+ }
+ .about__image {
+    width: 100%;
+    height: 100%;
+ }
 
 .service {
     margin: 0;
@@ -103,10 +113,14 @@
     margin-left: 100px;
 }
 }*/
-
+@media (min-width: 640px) {
+.about__us-details-preview {
+margin-left: 50px;
+margin-right: 20px;
+}
 @media (min-width: 640px) {
 .services-wrapper {
-    margin-left: 100px;
+    margin-left: 50px;
     margin-bottom: 500px;
 }
 }
@@ -149,10 +163,10 @@
 }
 
 @media (min-width: 640px) {
-    .about__image {    
+    /*.about__image {    
         height: 100px;
         width: 280px;
-    }
+    }*/
     .service {
         width: 300px;
         height: 33px;
@@ -180,10 +194,10 @@
 }
 
 @media (min-width: 780px) {
-    .about__image {    
+    /*.about__image {    
         height: 110px;
         width: 290px;
-    }
+    }*/
     .service {
         width: 310px;
         height: 37px;
@@ -211,10 +225,10 @@
 }
 
 @media (min-width: 1200px) {
-    .about__image {    
+    /*.about__image {    
         height: 120px;
         width: 300px;
-    }
+    }*/
     .service {
         width: 320px;
         height: 45px;
