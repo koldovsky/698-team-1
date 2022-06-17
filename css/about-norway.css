@@ -1,0 +1,7 @@
+.about_norway-line {
+    color: var(--decoration-line-color);
+}
+h2 {
+    text-transform: uppercase;
+    color: var(--paragraph-color);
+}
