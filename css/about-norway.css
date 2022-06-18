@@ -9,7 +9,7 @@
     background-color: var(--color-background-light);
 }
 .about__norway-description {
-    weight: 272px;
+    width: 272px;
     height: 294px;
     object-fit: contain;
 }    
