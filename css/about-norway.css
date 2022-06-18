@@ -11,6 +11,7 @@
 .about__norway-description {
     weight: 272px;
     height: 294px;
+    object-fit: contain;
 }    
 
 .about_norway-line {
