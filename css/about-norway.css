@@ -1,12 +1,12 @@
-@media (min-width:320px) {
-
 .about_norway {
     display: flex;
     flex-direction: column;
     max-width: 1200px;
+    margin: auto;
     padding: 120px 20px 120px 20px;
     text-align: left;
     background-color: var(--color-background-light);
+  
 }
 
 .about_norway-row {
@@ -20,12 +20,12 @@
 .about__norway-description {
     flex: 100%;
     object-fit: contain;
+    max-width: 300px;
 }    
 
 .about_norway-line {
     color: var(--decoration-line-color);
-    font-size: 12px;
-    flex: 100%;    
+    font-size: 12px; 
 }
 .about__norway-title {
     text-transform: uppercase;
@@ -54,4 +54,10 @@
     font-family:'Roboto', sans-serif;
     font-size: 14px;
 }
+@media (min-width: 780px) {
+    .about_norway-row >div,
+    .about__norway-description {
+        flex: 1;
+    }
+    
 }
