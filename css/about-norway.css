@@ -8,21 +8,33 @@
     text-align: left;
     background-color: var(--color-background-light);
 }
+
+.about_norway-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.about_norway-row >div {
+    flex: 100%;
+}
+
 .about__norway-description {
     width: 272px;
     height: 294px;
+    flex: 100%;
     object-fit: contain;
 }    
 
 .about_norway-line {
     color: var(--decoration-line-color);
-    font-size: 12px;    
+    font-size: 12px;
+    flex: 100%;    
 }
 .about__norway-title {
     text-transform: uppercase;
     color: var(--paragraph-color);
     font-family:'Roboto', sans-serif;
     font-size: 12px;
+    flex: 100%;
 }
 .about__norway-title-article {
     color: var(--paragraph-color);
