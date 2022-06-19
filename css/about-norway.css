@@ -87,3 +87,14 @@
 
     }
 }
+.about_norway__main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 120px 20px 120px 20px;
+    text-align: left;
+    background-color: var(--color-background-light);
+}
+.about_norway-row {
+    display: flex;
+    flex-direction: column;
+}
