@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <title>Guide Tour</title>
     <link rel="icon" href="img/icon.png">
     <link rel="stylesheet" href="css/index.css">
@@ -60,6 +61,17 @@
                     </h2>
                     <p class="about__us-preview">Expertly crafted tours to <br>Norway. <span id="ten-days">10
                             days</span> of admiring <br> nordic cities. fjords, and <br> waterfalls.</p>
+                            <div class="container" id="container">
+                                <div class="circle"></div>
+                          
+                                <p id="text"></p>
+                          
+                                <div class="pointer-container">
+                                  <span class="pointer"></span>
+                                </div>
+                          
+                                <div class="gradient-circle"></div>
+                              </div>
                 </div>
                 <div class="about__us-details">
                     <p class="about-para">
@@ -79,8 +91,7 @@
                 <div class="services-wrapper container">
                     <div class="services-subdiv">
                         <div class="image-section">
-                            <img src="img/about_us/about-us-item-one.jpg" alt="about us image one"
-                                class="about__image">
+                            <img src="img/about_us/about-us-item-one.jpg" alt="about us image one" class="about__image">
                         </div>
                         <h3 class="service">Contact us</h3>
                         <p class="service__description">Some tour conditions may be changed according to the season. To
@@ -89,9 +100,7 @@
                     </div>
                     <div class="services-subdiv">
                         <div class="image-section">
-                            <img src="img/about_us/about-us-item-two.jpg"
-                            alt="about us image two"
-                                class="about__image">
+                            <img src="img/about_us/about-us-item-two.jpg" alt="about us image two" class="about__image">
                         </div>
                         <h3 class="service">Pick a date</h3>
                         <p class="service__description">We conduct tours all year round, almost every week, but the most
@@ -100,8 +109,8 @@
                     </div>
                     <div class="services-subdiv">
                         <div class="image-section">
-                            <img src="img/about_us/about-us-item-three.jpg"
-                                alt="about us image three" class="about__image">
+                            <img src="img/about_us/about-us-item-three.jpg" alt="about us image three"
+                                class="about__image">
                         </div>
                         <h3 class="service">Start your journey</h3>
                         <p class="service__description">If necessary, we help you apply for a visa to Norway, as well as
@@ -116,68 +125,73 @@
         <!-- Viktoria Dziuba start (tour itinerary)-->
         <section class="map">
             <div class="map_img">
-                <img width="270" src="img/map_our/map-Norway.png" alt="map">
+                <img src="img/map_tour/map-Norway.png" alt="map">
             </div>
             <div>
                 <span class="decoration-line-tour">-</span>
                 <h2>TOUR ITINERARY</h2>
                 <p class="map__map-text">From Oslo to Tromsø</p>
                 <p class="map__tour">We will travel through almost the entire country, from Oslo to Tromsø. Many amazing
-                    places await us,
+                    places
+                    await us,
                     including bustling cities and fishing villages.
                     You will see the real Norway in all its glory.</p>
-            </div>
-            <div>
-                <img src="img/map-tour/icon-license.png" alt="license">
+                <img src="img/map_tour/icon-license.png" alt="license">
                 <h3 class="map__icon">Official License</h3>
                 <p class="map__tour">We are a licensed tour operator and have all the necessary permits to conduct tours
-                    in Norway.</p>
-            </div>
-            <div>
-                <img src="img/map-tour/icon-guide.png" alt="guide">
+                    in
+                    Norway.</p>
+                <img src="img/map_tour/icon-guide.png" alt="guide">
                 <h3 class="map__icon">Professional Guide</h3>
                 <p class="map__tour">A professional guide will accompany you along the entire route, who will show you
-                    the most beautiful places.</p>
-            </div>
-            <div>
-                <img src="img/map-tour/icon-satisfaction" alt="satisfaction">
+                    the most
+                    beautiful places.</p>
+                <img src="img/map_tour/icon-satisfaction.png" alt="satisfaction">
                 <h3 class="map__icon">110% Satisfaction</h3>
                 <p class="map__tour">Norway will steal your heart from the very first day of our trip. It is impossible
-                    not to fall in love with it!</p>
+                    not to
+                    fall in love with it!</p>
             </div>
-            <img class="map__map-background" src="img/map-tour/background-map" alt="background">
         </section>
         <!-- Viktoria Dziuba finish (tour itinerary)-->
 
         <!--Valyas Olha (about norway) (start)-->
         <section class="about_norway">
-            <div>
-                <img class="about__norway-description" width="200" src="img/about_norway/a-forest.png" alt="a-forest">
-                <h2>
-                    <span class="about_norway-line">-</span>About Norway
-                </h2>
-                <h3>Land of The Midnight Sun</h3>
-                <p>
-                    It is believed that the name of this distinctive country and one of the most breathtaking places on
-                    our planet was given by the Old-Norse word Norðrvegr, literally meaning "way to the north."
-                </p>
+            <div class="about_norway-row">
+                <img class="about__norway-description" src="img/about_norway/a-forest.png" alt="a-forest">
+                <div>
+                    <h2 class="about__norway-title">
+                        <span class="about_norway-line">
+                            ━
+                        </span>
+                        About Norway
+                    </h2>
+                    <h3 class="about__norway-title-article">Land of The Midnight Sun</h3>
+                    <p class="about__norway-text">
+                        It is believed that the name of this distinctive country and one of the most breathtaking places
+                        on
+                        our planet was given by the Old-Norse word Norðrvegr, literally meaning "way to the north."
+                    </p>
+                </div>
+                <div>
+                    <p class="about__norway-text">
+                        Norway is famous for green forests and mountains, pristine glaciers, noisy and cool waterfalls,
+                        lakes, beautiful fjords, white nights, and the polar lights. The beauty of Norway cannot be
+                        described in words!
+                    </p>
 
-                <p>
-                    Norway is famous for green forests and mountains, pristine glaciers, noisy and cool waterfalls,
-                    lakes, beautiful fjords, white nights, and the polar lights. The beauty of Norway cannot be
-                    described in words!
-                </p>
-
-                <p>
-                    Norway is also known for its striking landscapes, hunting, fishing, interesting and entertaining
-                    history, and culture. All this attracts travel lovers who come to Norway regardless of the season
-                    from all over the world.
-                </p>
-
+                    <p class="about__norway-text">
+                        Norway is also known for its striking landscapes, hunting, fishing, interesting and entertaining
+                        history, and culture. All this attracts travel lovers who come to Norway regardless of the
+                        season
+                        from all over the world.
+                    </p>
+                </div>
             </div>
 
         </section>
         <section class="about_norway__main">
+            <div class="about_norway__main-row">
             <div>
                 <h4 class="about_norway__main-figures">
                     17,000+
@@ -210,6 +224,7 @@
                     Waterfalls
                 </h5>
             </div>
+            </div>
 
         </section>
         <section class="about_norway-picture">
@@ -217,9 +232,11 @@
                 <img class="about__norway-picture-lake" width="250" src="img/about_norway/boat_on_lake.webp"
                     alt="Boat on the lake">
                 <img class="about__norway-picture-logo" width="250" src="img/about_norway/play_icon.svg" alt="Play">
-                <h6>Want to go fishing in Tromsø, Norway?</h6>
+                <h6 class="about_norway-picture-title">Want to go fishing in Tromsø, Norway?</h6>
             </div>
+            <div class="about_norway-picture-clock"></div>
         </section>
+        <scrip src="js/about-norway.js"></scrip>
 
 
         <!--Valyas Olha (about norway) (end)-->
@@ -358,36 +375,42 @@
         <!-- Bodnar Andriy end -->
         <!-- Mariami Gurgenidze Experience section (start)-->
         <section class="experience">
-            <div class="experience__content">
-                <div class="experience_header">
-                    <h5 class="experience_subtitle">TESTIMONIALS</h5>
-                    <h3 class="experience_title"> Travelers Share Their Experience</h3>
-                    <p class="experience_description">Norway leaves no one indifferent. Its stunning nature, friendly
-                        people,
-                        beautiful cities, and delicious cuisine will be remembered forever.</p>
-                </div>
-                <div class="experience_stories">
-                    <div class="experience-stories__story">
-                        <img src="img/experience_section/Story1.png" alt="Story`s author photo" class="story_photo"
-                            width="120" height="120">
-                        <p class="story_author">Cole Tiers</p>
-                        <p class="story_text">I wanted to see Norway since childhood when I saw a stylish house right in the middle of the Norwegian forest in some magazine. I  thought then that I also want to live in such a house. This dream came true a few months ago on a tour of Norway. I am very happy! Thanks, guys!</p>
-                        <p class="story_date">October 28, 2018</p>
+            <div class="experience__container">
+                <div class="experience__content">
+                    <div class="experience_header">
+                        <h5 class="experience_subtitle">TESTIMONIALS</h5>
+                        <h3 class="experience_title"> Travelers Share Their Experience</h3>
+                        <p class="experience_description">Norway leaves no one indifferent. Its stunning nature,
+                            friendly
+                            people,
+                            beautiful cities, and delicious cuisine will be remembered forever.</p>
                     </div>
-                    <!-- <div class="experience-stories__story story_hidden">
-                        <img src="img/experience_section/Story2.png" alt="Story`s author photo" class="story_photo"
-                            width="120" height="120">
-                        <p class="story_author">Lilland Forester</p>
-                        <p class="story_text">We went on this tour with our daughter, she was 5 years old. I was worried that it would be difficult for her but everything went great. We spent nights in good hotels with excellent breakfasts. My daughter always had something to eat, and the nature in Norway fascinated her even more than us!</p>
-                        <p class="story_date">May 13, 2019</p>
+                    <div class="experience_stories">
+                        <div class="experience-stories__story">
+                            <img src="img/experience_section/Story1.png" alt="Story`s author photo" class="story_photo"
+                                width="120" height="120">
+                            <p class="story_author">Cole Tiers</p>
+                            <p class="story_text">I wanted to see Norway since childhood when I saw a stylish house
+                                right in the middle of the Norwegian forest in some magazine. I thought then that I also
+                                want to live in such a house. This dream came true a few months ago on a tour of Norway.
+                                I am very happy! Thanks, guys!</p>
+                            <p class="story_date">October 28, 2018</p>
+                        </div>
+                        <!-- <div class="experience-stories__story story_hidden">
+                            <img src="img/experience_section/Story2.png" alt="Story`s author photo" class="story_photo"
+                                width="120" height="120">
+                            <p class="story_author">Lilland Forester</p>
+                            <p class="story_text">We went on this tour with our daughter, she was 5 years old. I was worried that it would be difficult for her but everything went great. We spent nights in good hotels with excellent breakfasts. My daughter always had something to eat, and the nature in Norway fascinated her even more than us!</p>
+                            <p class="story_date">May 13, 2019</p>
+                        </div>
+                        <div class="experience-stories__story story_hidden">
+                            <img src="img/experience_section/Story3.png" alt="Story`s author photo" class="story_photo"
+                                width="120" height="120">
+                            <p class="story_author">Alice Hendricks</p>
+                            <p class="story_text">I still can't believe I have seen the Northern Lights with my own eyes! That was incredible! When we arrived in Tromsø, it was constantly snowing, the weather was bad, and the guide said that we were out of luck, most likely. But on the last night, right at midnight, the clouds left, and I saw it! It was magical!</p>
+                            <p class="story_date">January 12, 2020</p>
+                        </div> -->
                     </div>
-                    <div class="experience-stories__story story_hidden">
-                        <img src="img/experience_section/Story3.png" alt="Story`s author photo" class="story_photo"
-                            width="120" height="120">
-                        <p class="story_author">Alice Hendricks</p>
-                        <p class="story_text">I still can't believe I have seen the Northern Lights with my own eyes! That was incredible! When we arrived in Tromsø, it was constantly snowing, the weather was bad, and the guide said that we were out of luck, most likely. But on the last night, right at midnight, the clouds left, and I saw it! It was magical!</p>
-                        <p class="story_date">January 12, 2020</p>
-                    </div> -->
                 </div>
             </div>
         </section>
@@ -395,42 +418,31 @@
     </main>
     <!-- Hanna Hrekh start -->
     <footer class="footer">
-        <nav class="footer__nav">
-            <div class="footer__nav-logo">
-                <a href="#">
-                    <img width="176" src="img/footer/footer_Norway.png" alt="Norway footer logo" class>
-                </a>
-            </div>
-            <nav class="footer__nav-menu">
-                <a href="#about" class="menu-link">About Us</a>
-                <a href="#places">Itinerary</a>
-                <a href="#Testimonials">Testimonials</a>
-                <a href="#Blog">Blog</a>
-                <a href="#Contacts">Contacts</a>
-            </nav>
-
-        </nav>
-
-        <div class="footer__info">
-            <p class="footer__info-subtitle">
-                © Created by
-            </p>
-            <p class="footer__info-icon">
-                <a href="https://www.facebook.com"><img width="15" src="img/footer/f-r.facebook-icon.png"
-                        alt="Facebook icon"></a>
-                <a href="https://www.instagram.com/"><img width="15" src="img/footer/f-r.insagram-icon.png"
-                        alt="Instagram icon"></a>
-                <a href="https://www.youtube.com/"><img width="18" src="img/footer/f-r.youtube-icon.png"
-                        alt="Youtube icon"></a>
-            </p>
-            <p>
-                All rights Reserved
-            </p>
-
+        <div class="footer-content">
+            <a href="#">
+            <img class="logo_footer" width="176" src="img/footer/footer_Norway.png" alt="Norway logotype"></a>
+            <nav class="footer-col">
+                <ul>
+                <li><a href="#about" class="menu-link">About Us</a>
+                    <a href="#places">Itinerary</a> 
+                    <a href="#Testimonials">Testimonials</a>
+                    <a href="#Blog">Blog</a>
+                    <a href="#Contacts">Contacts</a></li>
+                </ul>
+            </nav> 
+            <ul class="socials">
+            <li><a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a></li>
+            </ul>
         </div>
-
+        <div class="footer-bottom">
+            <p>&copy;Created by</p>
+            <p>All rights reserved</p>
+        </div>
     </footer>
     <!-- Hanna Hrekh end -->
+    <script src="js/about-us.js"></script>
 </body>
 
 </html>
