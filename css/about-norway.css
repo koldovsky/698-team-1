@@ -94,7 +94,7 @@
     text-align: left;
     background-color: var(--color-background-light);
 }
-.about_norway-row {
+.about_norway__main-row {
     display: flex;
     flex-direction: column;
     text-align: center;
