@@ -99,3 +99,8 @@
     flex-direction: column;
     text-align: center;
 }
+
+.about_norway-picture {
+    display: flex;
+    text-align: center;
+}
