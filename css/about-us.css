@@ -113,6 +113,15 @@ p {
     /* width: 580px;
     height: 50px; */
 }
+@media (min-width: 640px) {
+.about__us-details-preview {
+    display: flex;
+    flex-direction: row;
+    padding-right: 400px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+}
 
 @media (min-width: 640px) {
 .about-us-description container {
@@ -131,7 +140,7 @@ p {
 .about__us-details-preview {
 padding-left: 0;
 padding-right: 10px;
-margin-right: 90px;
+margin-right: 5px;
 } 
 }
 
@@ -139,7 +148,7 @@ margin-right: 90px;
 .about__us-details {
         padding-top: 30px;
         padding-right: 20px;
-        margin-left: 190px;
+        margin-left: 20px;
     }
 } 
 
@@ -341,7 +350,32 @@ margin-right: 90px;
     width: 50px;
     height: 50px;
   }
-  
+.clock {
+    display: flex;
+    align-items: center;
+    background-color: #c2d6d6;
+    height: 250px;
+    width: 300px; 
+    border-radius: 50%;
+    margin-left: 20px;
+    padding-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-style: dotted;
+    border-color: grey; 
+}
+
+@media (min-width: 640px) {
+.clock {
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    height: 250px;
+    width: 300px; 
+    border-radius: 60%;
+    margin-left: 20px;
+ }
+}
   /* RELAXER APP */
 /*
   .relaxer.container #relaxer-container {
