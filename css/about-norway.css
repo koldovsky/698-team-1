@@ -104,3 +104,8 @@
     align-items: center;
     justify-content: center;
 }
+
+.about__norway-description {
+    color: var(--paragraph-color);
+    font-size: 12px;
+}
