@@ -1,6 +1,16 @@
-.map {
+/* .map {
     display: flex;
     background: url(https://res2.weblium.site/res/5f0f108db6bcbd0022791194/5f153dd41538900022e142ad_optimized_1920);
     background-size: 100%;
     justify-content: center;
+} */
+
+.map_img-container {
+    width: 300px;
+    height: 320px;
+}
+
+.map_img {
+    width: 100%;
+    height: 100%;
 }
