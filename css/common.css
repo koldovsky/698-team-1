@@ -16,6 +16,9 @@
     --color-bottom-blue: rgb(20, 169, 238);
     --paragraph-color: #484848;
     --headlines-lighter-color: #585858;
+    --clock-box-shadow-a-color: rgba(0, 0, 0, 0.2); 
+    --clock-box-shadow-b-color: rgba(0, 0, 0, 0.19);
+    --clock-background-color: #c2d6d6;
 }
 
 * {
