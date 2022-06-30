@@ -37,3 +37,17 @@
 .guide_name_color_second {
     color: var(--color-text-light-background);
 }
+
+.guide_text {
+    font-size: 17px;
+    color: var(--color-text-dark-background);
+
+    margin-bottom: 45px;
+}
+
+@media (min-width: 640px) {
+    .guide_text {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+}
