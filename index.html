@@ -74,6 +74,8 @@
                         group plus an English-speaking guide. Comfortable vans and nights in 3*+ hotels are included in
                         the price.
                     </p>
+                    <input type="text" class="weather-input-value" value="enter your city" placeholder="enter a city">
+                    <button class="check-weather">Check Weather</button>
                 </div>
             </div>
             <div class="services__we__offer">
@@ -124,8 +126,8 @@
 
         <!-- Viktoria Dziuba start (tour itinerary)-->
         <section class="map">
-            <div class="map_img">
-                <img src="img/map_tour/map-Norway.png" alt="map">
+            <div class="map_img-container">
+                <img class="map_img" src="img/map_tour/map-Norway.png" alt="map">
             </div>
             <div>
                 <span class="decoration-line-tour">-</span>
@@ -270,27 +272,43 @@
                 <div class="carousel_spots__image_block">
                     <div class="carousel_spots__slider">
                         <button class="carousel_spots__slider_button carousel_spots__slider_button-left">
-                            <img class="carousel_spots__slider_button-image" src="img/carousel_spots/arrow_before.svg"
-                                alt="Slider Left">
+                            <img 
+                                class="carousel_spots__slider_button-image" 
+                                src="img/carousel_spots/arrow_before.svg"
+                                alt="Slider Left"
+                            >
                         </button>
                         <button class="carousel_spots__slider_button carousel_spots__slider_button-right">
-                            <img class="carousel_spots__slider_button-image" src="img/carousel_spots/arrow_next.svg"
-                                alt="Slider Right">
+                            <img 
+                            class="carousel_spots__slider_button-image" 
+                            src="img/carousel_spots/arrow_next.svg"
+                            alt="Slider Right"
+                            >
                         </button>
                     </div>
+                    <div class="carousel_spots__image-carousel-conteiner"></div>
                     
-                    <div class="carousel_spots__image_container">
-                        <img class="carousel_spots__image_block-1 carousel_spots__image"
-                            src="img/carousel_spots/carousel_spots-1.jpeg" alt="STUNNING SPOTS">
+                    <!-- <div class="carousel_spots__image_container">
+                        <img 
+                            class="carousel_spots__image_block-1 carousel_spots__image"
+                            src="img/carousel_spots/carousel_spots-1.jpeg" 
+                            alt="STUNNING SPOTS"
+                        >
                     </div>
                     <div class="carousel_spots__image_container">
-                        <img class="carousel_spots__image_block-2 carousel_spots__image"
-                            src="img/carousel_spots/carousel_spots-2.jpeg" alt="STUNNING SPOTS">
+                        <img 
+                            class="carousel_spots__image_block-2 carousel_spots__image"
+                            src="img/carousel_spots/carousel_spots-2.jpeg" 
+                            alt="STUNNING SPOTS"
+                        >
                     </div>
                     <div class="carousel_spots__image_container">
-                        <img class="carousel_spots__image_block-3 carousel_spots__image"
-                            src="img/carousel_spots/carousel_spots-3.1.jpeg" alt="STUNNING SPOTS">
-                    </div>
+                        <img
+                            class="carousel_spots__image_block-3 carousel_spots__image"
+                            src="img/carousel_spots/carousel_spots-3.1.jpeg" 
+                            alt="STUNNING SPOTS"
+                        >
+                    </div> -->
 
                     <!-- <img class="carousel_spots__image_block-4 carousel_spots__image" src="img/carousel_spots/carousel_spots-4.png" alt="STUNNING SPOTS">
                         <img class="carousel_spots__image_block-5 carousel_spots__image" src="img/carousel_spots/carousel_spots-5.jpeg" alt="STUNNING SPOTS">
@@ -345,13 +363,20 @@
         <!-- Bodnar Andriy start -->
         <section>
             <div class="guide_1">
-                <span style="color: rgb(238,46,20);">-</span>
+                <span style="color: rgb(238,46,20);">--</span>
                 <span style="color: rgba(255,255,255,0.6);">FAQ</span>
                 <div>
-                    <h3>
-                        Explore our expertly crafted tours
-                    </h3>
-                    <p>
+                    <p class="guide_name">
+                        <span class="guide_name_color_first">
+                            Explore our expertly
+                        </span>
+                    </p>
+                    <p class="guide_name">
+                        <span class="guide_name_color_second">
+                            crafted tours
+                        </span>
+                    </p>
+                    <p class="guide_text">
                         We tried to make our Norway tour as comfortable and interesting as possible. If you still have
                         questions, you can contact us directly or fill out the form below.
                     </p>
@@ -442,6 +467,7 @@
     </footer>
     <!-- Hanna Hrekh end -->
     <script src="js/about-us.js"></script>
+    <script src="js/carousel-spots.js"></script>
     <script src="js/about-norway.js"></script>
 </body>
 

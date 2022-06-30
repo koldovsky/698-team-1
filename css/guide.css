@@ -3,3 +3,51 @@
     background-color: rgb(35, 36, 40);
     padding: 60px 24px;
 }
+.guide_name {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 34px;
+    
+    letter-spacing: 1.02px;
+    line-height: 40px;
+
+    margin-bottom: 50px;
+}
+
+@media (min-width: 640px) {
+    .guide_name {
+        font-size: 40px;
+        letter-spacing: 1.2px;
+        line-height: 48px;
+    }
+}
+
+@media (min-width: 960px) {
+    .guide_name {
+        font-size: 45px;
+        letter-spacing: 1.35px;
+        line-height: 54px;
+    }
+}
+
+.guide_name_color_first {
+    color: var(--light-text-color);
+}
+
+.guide_name_color_second {
+    color: var(--color-text-light-background);
+}
+
+.guide_text {
+    font-size: 17px;
+    color: var(--color-text-dark-background);
+
+    margin-bottom: 45px;
+}
+
+@media (min-width: 640px) {
+    .guide_text {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+}
