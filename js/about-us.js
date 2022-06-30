@@ -5,10 +5,19 @@ clockContainer.innerText = new Date().toLocaleTimeString();
 setInterval(updateClock, 1000);
 })();
 
-async function weatherForecast() {
+async function () {
 const response = await fetch('forecast.json');
-console.log(response);
+const forecast = await response.json;
+
 }
 renderForecast(forecast);
+}
 
+document.querySelector('.check-weather').addEventListener('click', weatherForecast);
 
+async function weatherForecast() {
+    const response = await fetch('https://api.openweathermap.org/data/2.5/weather?q=Oslo&appid=9049f90db361271300a108febe8ed053');
+    const forecastNorway = await response.json();
+    const cityName = document.querySelector(.weather-input-value).value;
+    renderForecast(forecast);
+  }
