@@ -72,7 +72,7 @@
         showCurrentSlide();
     }
 
-    // setInterval(nextSlide, 3000);
+    setInterval(nextSlide, 3000);
     showCurrentSlide();
 
     const nextButton = document.querySelector('.carousel_spots__slider_button-right');
