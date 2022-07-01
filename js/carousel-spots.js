@@ -72,7 +72,7 @@
         showCurrentSlide();
     }
 
-    setInterval(nextSlide, 3000);
+    // setInterval(nextSlide, 3000);
     showCurrentSlide();
 
     const nextButton = document.querySelector('.carousel_spots__slider_button-right');
@@ -89,6 +89,6 @@
     }
         const buttons = document.querySelectorAll(".carousel_black__dotes_button");
         for (let i = 0; i < buttons.length; i++) {
-            buttons.addEventListener("click", () => showSlide(i));
+            buttons[i].addEventListener("click", () => showSlide(i));
         }
 })()
