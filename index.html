@@ -74,6 +74,8 @@
                         group plus an English-speaking guide. Comfortable vans and nights in 3*+ hotels are included in
                         the price.
                     </p>
+                    <input type="text" class="weather-input-value" value="enter your city" placeholder="enter a city">
+                    <button class="check-weather" onclick="weatherForecast()">Check Weather</button>
                 </div>
             </div>
             <div class="services__we__offer">
@@ -337,13 +339,20 @@
         <!-- Bodnar Andriy start -->
         <section>
             <div class="guide_1">
-                <span style="color: rgb(238,46,20);">-</span>
+                <span style="color: rgb(238,46,20);">--</span>
                 <span style="color: rgba(255,255,255,0.6);">FAQ</span>
                 <div>
-                    <h3>
-                        Explore our expertly crafted tours
-                    </h3>
-                    <p>
+                    <p class="guide_name">
+                        <span class="guide_name_color_first">
+                            Explore our expertly
+                        </span>
+                    </p>
+                    <p class="guide_name">
+                        <span class="guide_name_color_second">
+                            crafted tours
+                        </span>
+                    </p>
+                    <p class="guide_text">
                         We tried to make our Norway tour as comfortable and interesting as possible. If you still have
                         questions, you can contact us directly or fill out the form below.
                     </p>
@@ -436,6 +445,7 @@
     <script src="js/about-us.js"></script>
     <script src="js/carousel-spots.js"></script>
     <script src="js/about-norway.js"></script>
+    <script src="js/weather-forecast.js"></script>
 </body>
 
 </html>
