@@ -203,22 +203,22 @@ p {
     } 
 }
 
-/*
+
 @media (min-width: 780px) {
-    .about__image {    
-     height: 110px;
+    .image-section {    
+        height: 110px;
         width: 300px; 
     }
-    .service {
+    .service-container {
        width: 310px;
         height: 37px;
     }
-    .service__description {
+    .service__description-container {
         width: 310px;
         height: 110px; 
         padding-bottom: 50px;
     }
-} */
+} 
 
 @media (min-width: 960px) {
     .services-wrapper {

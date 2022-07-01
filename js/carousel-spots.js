@@ -7,21 +7,21 @@
                 src="img/carousel_spots/carousel_spots-1.jpeg"
                 alt="STUNNING SPOTS"
             >
-        </div>`,
+        </div>`, 
         `<div class="carousel_spots__image_container">
                 <img
                     class="carousel_spots__image_block-2 carousel_spots__image"
                     src="img/carousel_spots/carousel_spots-2.jpeg"
                     alt="STUNNING SPOTS"
                 >
-        </div>`,
+        </div>`, 
         `<div class="carousel_spots__image_container">
                 <img
                     class="carousel_spots__image_block-3 carousel_spots__image"
-                    src="img/carousel_spots/carousel_spots-3.1.jpeg"
+                    src="img/carousel_spots/carousel_spots-3.jpeg"
                     alt="STUNNING SPOTS"
                 >
-        </div>`,
+        </div>`, 
         `<div class="carousel_spots__image_container">
             <img 
                 class="carousel_spots__image_block-4 carousel_spots__image" 
@@ -50,12 +50,8 @@
     function showCurrentSlide() {
         const slideContainer = document.querySelector('.carousel_spots__image_block .carousel_spots__image-carousel-conteiner');
         slideContainer.innerHTML = slides[slideIdx];
-        // if (window.innerWidth > 600) {
-        //     if (window.matchMedia('(min-width: 10px)').matches) {
-        //         const firstSlideIdx = slideIdx >= slides.length ? 0 : slideIdx;
-        //         slideContainer.innerHTML = slides[firstSlideIdx];
-        //    }
-
+        // if (window.innerWidth < 640) 
+       
         if (window.matchMedia('(min-width: 640px)').matches) {
             const secondSlideIdx = slideIdx + 1 >= slides.length ? 0 : slideIdx + 1;
             slideContainer.innerHTML += slides[secondSlideIdx];
@@ -64,8 +60,6 @@
                 slideContainer.innerHTML += slides[thirdSlideIdx];
             }
         }
-
-        
     }
 
     function nextSlide() {
