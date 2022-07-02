@@ -45,6 +45,7 @@
     margin: 20px 0;
 }
 
+/*
 .about_norway__main-figures {
     color: rgb(35, 36, 40);
     font-family: 'Roboto', sans-serif;
@@ -86,7 +87,8 @@
         flex: 25%;
 
     }
-}
+} */
+
 /*.about_norway__main {
     max-width: 1200px;
     margin: auto;
@@ -110,7 +112,7 @@
     font-size: 30px;
 } */
 
-@media (min-width: 320px) {
+
 .statistics {
     background-color: var(--color-background-light);
 }
@@ -134,7 +136,7 @@
 .stat__text {
     font-size: 15px;
 }
-}
+
 @media (min-width: 780px) {
     .statistics {
         background-color: var(--color-background-light);
