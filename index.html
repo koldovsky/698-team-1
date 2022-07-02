@@ -12,45 +12,53 @@
 </head>
 
 <body>
+    <!-- Vladislav Burhovetskiy start-->
     <header class="header">
-        <!-- Oleksander start-->
-        <nav class="header__nav">
-            <div>
-                <a href="#">
-                    <img width="188" src="img/main-logo.png" alt="img is not found">
-                </a>
-            </div>
-            <nav class="header__nav-menu">
-                <div>
-                    <a class="header__menu-link" href="#about_us">About_Us</a>
-                    <a class="header__menu-link" href="#itinerary">Itinerary</a>
-                    <a class="header__menu-link" href="#testimonials">Testimonials</a>
-                    <a class="header__menu-link" href="#blog">Blog</a>
-                    <a class="header__menu-link" href="#contacts">Contacts</a>
-                    <a class="header__menu-buton" href="#join_us">Join Us</a>
+        <div class="container">
+            <nav class="header__nav">
+                <div class="header__nav_logo">
+                    <a href="#">
+                        <img
+                            class="header__nav_logo-image"
+                            src="img/main-logo.png" 
+                            alt="Logo Norway"
+                        >
+                    </a>
+                </div>
+                <div class="header__nav_menu">
+                    <a class="header__nav_menu-link" href="#about_us">About Us</a>
+                    <a class="header__nav_menu-link" href="#itinerary">Itinerary</a>
+                    <a class="header__nav_menu-link" href="#norway">Norway</a>
+                    <a class="header__nav_menu-link" href="#stunning_spots">Stunning Spots</a>
+                    <a class="header__nav_menu-link" href="#fqa">FQA</a>
+                    <a class="header__nav_menu-link" href="#testimonials">Testimonials</a>
+                    <div class="header__nav_menu-button">
+                        <a class="header__nav_menu-link header__nav_menu-link-button" href="#contact_us">Contact Us  →</a>
+                    </div>
                 </div>
             </nav>
-        </nav>
-        <div class="header__baner">
-            <p class="header__baner-subtitle"><span>━</span>YOUR PERFECT JOURNEY TO</p>
-            <h1 class="header__baner-title">Norway</h1>
-            <p class="detales">━ <a href="#"> Watch the promo video!</a></p>
-            <!--add svg later!-->
-            <div class="header__banner-info">
-                <img class="video-player" width="200" src="img/tipa-video-header.jpg" alt="Video Player">
-                <h3 class="header__banner-subtitle">Next Trip to Norway</h3>
-                <h4>$2300 17 NOV. - 22 NOV.</h4>
-                <p>10 days of travel and 5 unique places in Norway are waiting for us ...</p>
-                <p><a href="#">Read more</a></p>
+            <div class="header__baner">
+                <p class="header__baner-subtitle"><span>━</span>YOUR PERFECT JOURNEY TO</p>
+                <h1 class="header__baner-title">Norway</h1>
+                <p class="detales">━ 
+                    <a href="#">Watch the promo video!</a>
+                </p>
+                <div class="header__banner-info">
+                    <img class="video-player" width="200" src="img/tipa-video-header.jpg" alt="Video Player">
+                    <h3 class="header__banner-subtitle">Next Trip to Norway</h3>
+                    <h4>$2300 17 NOV. - 22 NOV.</h4>
+                    <p>10 days of travel and 5 unique places in Norway are waiting for us ...</p>
+                    <p><a href="#">Read more</a></p>
+                </div>
             </div>
         </div>
-        <!-- Oleksander finish-->
 
     </header>
+    <!-- Vladislav Burhovetskiy finish-->
     <main>
 
         <!--Maria Bilo start (about us)-->
-        <section class="generic-section">
+        <section id="about_us" class="generic-section">
             
             <div class="about-us-description container">
                 <div class="about__us-details-preview">
@@ -126,7 +134,7 @@
         <!--Maria Bilo (end)-->
 
         <!-- Viktoria Dziuba start (tour itinerary)-->
-        <section class="map">
+        <section id="itinerary" class="map">
             <div class="map_img-container">
                 <img class="map_img" src="img/map_tour/map-Norway.png" alt="map">
             </div>
@@ -159,7 +167,7 @@
         <!-- Viktoria Dziuba finish (tour itinerary)-->
 
         <!--Valyas Olha (about norway) (start)-->
-        <section class="about_norway">
+        <section id="norway" class="about_norway">
             <div class="about_norway-row">
                 <img class="about__norway-description" src="img/about_norway/a-forest.png" alt="a-forest">
                 <div>
@@ -245,7 +253,7 @@
 
 
         <!-- Vladislav Burhovetskiy start (carousel_spots) -->
-        <section class="carousel_spots">
+        <section id="stunning_spots" class="carousel_spots">
             <div class="container">
                 <div class="carousel_spots__container">
                     <h2 class="carousel_spots__section_title">
@@ -337,7 +345,7 @@
 
         <!-- Bodnar Andriy start -->
         <section>
-            <div class="guide_1">
+            <div id="fqa" class="guide_1">
                 <span style="color: rgb(238,46,20);">--</span>
                 <span style="color: rgba(255,255,255,0.6);">FAQ</span>
                 <div>
@@ -373,7 +381,7 @@
         </section>
         <!-- Bodnar Andriy end -->
         <!-- Mariami Gurgenidze Experience section (start)-->
-        <section class="experience">
+        <section id="testimonials" class="experience">
             <div class="experience__container">
                 <div class="experience__content">
                     <div class="experience_header">
@@ -416,7 +424,7 @@
         <!-- Mariami Gurgenidze Experience section (end)-->
     </main>
     <!-- Hanna Hrekh start -->
-    <footer class="footer">
+    <footer id="contact_us" class="footer">
         <div class="footer-content">
             <a href="#">
             <img class="logo_footer" width="176" src="img/footer/footer_Norway.png" alt="Norway logotype"></a>

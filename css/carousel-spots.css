@@ -166,7 +166,6 @@
 /* крапки */
 
 .carousel_spots__dotes {
-    /* position: absolute; */
     display: flex;
     flex-direction: row;
     justify-content: center;
