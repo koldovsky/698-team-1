@@ -112,7 +112,7 @@
     font-size: 30px;
 } */
 
-
+@media (min-width: 320px) and (max-width: 779px) {
 .statistics {
     background-color: var(--color-background-light);
 }
@@ -134,8 +134,9 @@
 .stat__text {
     font-size: 15px;
 }
+}
 
-@media (min-width: 780px) {
+@media (min-width: 780px) and (max-width:959) {
     .statistics {
         background-color: var(--color-background-light);
     }
