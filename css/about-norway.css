@@ -109,12 +109,15 @@
     color: var(--paragraph-color);
     font-size: 30px;
 } */
+
+@media (min-width: 320px) {
 .statistics {
     background-color: var(--color-background-light);
 }
 .stat {
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 .stat__item {
     flex: 1 1 0;
@@ -130,6 +133,7 @@
 }
 .stat__text {
     font-size: 15px;
+}
 }
 @media (min-width: 780px) {
     .statistics {
