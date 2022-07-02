@@ -109,6 +109,28 @@
     color: var(--paragraph-color);
     font-size: 30px;
 } */
+.statistics {
+    background-color: var(--color-background-light);
+}
+.stat {
+    display: flex;
+    flex-direction: column;
+}
+.stat__item {
+    flex: 1 1 0;
+    text-align: center;
+    color: var(--paragraph-color);
+    padding: 70px 30px;
+}
+.stat__count {
+    margin-bottom: 10px;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1;
+}
+.stat__text {
+    font-size: 15px;
+}
 @media (min-width: 780px) {
     .statistics {
         background-color: var(--color-background-light);
