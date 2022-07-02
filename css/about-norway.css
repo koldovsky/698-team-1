@@ -140,10 +140,11 @@
         background-color: var(--color-background-light);
     }
     .stat {
-        display: flex;
+        display: grid;
     }
     .stat__item {
-        flex: 50%;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
         text-align: center;
         color: var(--paragraph-color);
         padding: 70px 30px;
