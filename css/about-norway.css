@@ -272,8 +272,6 @@
     margin: auto;
     background-image: url(../img/about_norway/boat_on_lake.webp);
     background-size: cover;
-    padding-bottom: 140px;
     display: flex;
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat;    
 }
