@@ -112,7 +112,7 @@
     font-size: 30px;
 } */
 
-@media (min-width: 320px) and (max-width: 779px) {
+@media (min-width: 0px) and (max-width: 779px) {
 .statistics {
     background-color: var(--color-background-light);
 }
@@ -123,7 +123,7 @@
 }
 .stat__item {
     color: var(--paragraph-color);
-    padding: 70px 30px;
+    padding: 35px 30px;
 }
 .stat__count {
     margin-bottom: 10px;
