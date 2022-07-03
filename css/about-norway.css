@@ -202,6 +202,7 @@
         display: grid;
         grid-template-columns: 1fr;
         padding: 70px 30px;
+        grid-row-gap: 45px;
     }
 
     .stat__count {
@@ -213,6 +214,7 @@
     }
 
     .stat__text {
+        margin-bottom: 10px;
         font-size: 15px;
         color: var(--paragraph-color);
     }
@@ -223,6 +225,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         padding: 70px 30px;
+        grid-row-gap: 35px;
     }
 
     .stat__count {
@@ -234,6 +237,7 @@
     }
 
     .stat__text {
+        margin-bottom: 10px;
         font-size: 15px;
         color: var(--paragraph-color);
     }
@@ -244,6 +248,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         padding: 70px 30px;
+        grid-column-gap: 20px;
     }
 
     .stat__count {
@@ -255,6 +260,7 @@
     }
 
     .stat__text {
+        margin-bottom: 10px;
         font-size: 15px;
         color: var(--paragraph-color);
     }
