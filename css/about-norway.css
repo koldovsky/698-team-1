@@ -273,5 +273,10 @@
     background-image: url(../img/about_norway/boat_on_lake.webp);
     background-size: cover;
     display: flex;
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;   
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
 }
