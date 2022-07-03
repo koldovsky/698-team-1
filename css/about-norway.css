@@ -265,3 +265,11 @@
         color: var(--paragraph-color);
     }
 }
+
+/*lake-start*/
+.picture {
+    max-width: 1200px;
+    margin: auto;
+    background-image: url(../img/about_norway/boat_on_lake.webp);
+    background-size: cover;
+}
