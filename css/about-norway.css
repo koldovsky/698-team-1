@@ -112,10 +112,12 @@
     font-size: 30px;
 } */
 
-@media (min-width: 0px) and (max-width: 779px) {
-.statistics {
+.statistics{
+    display: block;
     background-color: var(--color-background-light);
 }
+@media (min-width: 0px) and (max-width: 779px) {
+
 .stat {
     display: flex;
     flex-direction: column;
@@ -139,9 +141,7 @@
 }
 
 @media (min-width: 780px) and (max-width:959) {
-    .statistics {
-        background-color: var(--color-background-light);
-    }
+
     .stat {
         display: grid;
         grid-template-columns: 50% 50%;
@@ -165,9 +165,7 @@
     }
 
 @media (min-width: 960px) {
-.statistics {
-    background-color: var(--color-background-light);
-}
+
 .stat {
     display: flex;
 }
