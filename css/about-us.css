@@ -263,10 +263,6 @@ button {
     font-size: 17px;
     border-color:  var(--paragraph-color);
     box-shadow: 0 4px 8px 0 var(--clock-box-shadow-a-color), 0 6px 20px 0 var(--clock-box-shadow-b-color);
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 7px;
-    padding-top: 5px;
 }
 
 button:hover {
