@@ -301,7 +301,7 @@
     max-width: 100%;
     
 }
-
+/*
 .lake__play-icon {
     color: var(--light-text-color);
     display: flex;
@@ -310,7 +310,7 @@
     width: 100%;
     height: 100%;
 }
-
+*/
 .lake__text {
     font-size: 13px;
     font-weight: 500;
