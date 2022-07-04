@@ -302,6 +302,7 @@
     color: var(--light-text-color);
     height: 100%;
     width: 100%;
+    align-items: center;
 }
 
 .lake__text {
@@ -312,7 +313,7 @@
     top:50%;
     left: 0;
     width: 100%;
-    /*z-index: index 2;
-    transform: translate3d(0, -50%, 0);/*
+    z-index: index 2;
+    transform: translate3d(0, -50%, 0);
 
 }
