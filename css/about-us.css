@@ -239,3 +239,22 @@ p {
     width: 30px;
     height: 30px;
 }
+
+#weatherResult {
+    font-family: 'Roboto', sans-serif;
+    color: var(--paragraph-color);
+}
+
+input {
+    font-family: 'Roboto', sans-serif;
+    color: var(--paragraph-color);
+    height: 30px;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    color: var(--paragraph-color);
+    background-color: var(--clock-background-color);
+    height: 30px;
+    border-color: var(--clock-background-color);
+}
