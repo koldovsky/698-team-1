@@ -144,8 +144,9 @@
 
     .stat {
         display: grid;
-        grid-template-columns: repeat(2, auto);
-    }
+        grid-template-columns: 1fr 1fr;
+        }
+        
     .stat__item {
         text-align: center;
         padding: 70px 30px;
