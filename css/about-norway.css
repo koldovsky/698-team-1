@@ -299,6 +299,8 @@
 
 .lake__play {
     color: var(--light-text-color);
+    height: 100%;
+    width: 100%;
 }
 
 .lake__text {
