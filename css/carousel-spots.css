@@ -107,11 +107,11 @@
     margin: auto;
 }
 
-/* @media (min-width: 440px) {
+@media (min-width: 440px) {
     .carousel_spots__image-carousel-conteiner {
         min-height: 260px;
     }
-} */
+}
 
 @media (min-width: 640px) {
     .carousel_spots__image-carousel-conteiner {
