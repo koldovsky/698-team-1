@@ -291,7 +291,7 @@
     justify-content: center;
     padding: 120px 20px 120px 20px; 
 }
-.lake {
+.lake__picture {
     display: flex;
     object-fit: contain;
     max-width: 100%;
