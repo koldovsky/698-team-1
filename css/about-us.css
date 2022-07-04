@@ -243,12 +243,15 @@ p {
 #weatherResult {
     font-family: 'Roboto', sans-serif;
     color: var(--paragraph-color);
+    font-size: 17px;
 }
 
 input {
     font-family: 'Roboto', sans-serif;
     color: var(--paragraph-color);
     height: 30px;
+    font-size: 17px;
+    border-color: var(--color-background-dark);
 }
 
 button {
@@ -257,4 +260,5 @@ button {
     background-color: var(--clock-background-color);
     height: 30px;
     border-color: var(--clock-background-color);
+    font-size: 17px;
 }
