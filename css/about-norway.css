@@ -286,17 +286,15 @@
     margin: auto;
     background-color: var(--color-background-light);
     display: flex;
-    object-fit: contain;
-    max-width: 100%;
     align-items: center;
     text-align: center;
     justify-content: center;
     padding: 120px 20px 120px 20px; 
 }
 .lake {
-    height: 100%;
-    width: 100%;
     display: flex;
+    object-fit: contain;
+    max-width: 100%;
 }
 
 .lake__play {
