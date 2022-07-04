@@ -311,10 +311,18 @@
     height: 100%;
 }
 */
-.lake__play {
-    font-size: 25px;
-    font-weight: 500;
+.lake__text {
     color: var(--light-text-color);
+    font-size: 13px;
+    font-weight: 500;
+}
+.about__norway-description-clock {
+    color: var(--light-text-color);
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.lake__play {
     display: flex;
     align-items: center;
     text-align: center;
