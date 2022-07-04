@@ -330,4 +330,5 @@
     position: absolute;
     text-align: justify;
     border: 5px;
+    z-index: auto;
 }
