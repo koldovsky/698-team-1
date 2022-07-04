@@ -286,6 +286,8 @@
     margin: auto;
     background-color: var(--color-background-light);
     display: flex;
+    object-fit: contain;
+    max-width: 100%;
     align-items: center;
     text-align: center;
     justify-content: center;
