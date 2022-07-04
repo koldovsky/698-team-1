@@ -292,18 +292,32 @@
     padding: 120px 20px 120px 20px; 
 }
 .lake {
-    height: 100%;
-    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.lake__picture {
     display: flex;
+    object-fit: contain;
+    max-width: 100%;
 }
 
 .lake__play {
     color: var(--light-text-color);
     height: 100%;
     width: 100%;
+    align-items: center;
+    z-index: 2;
 }
 
 .lake__text {
-    font-size: 12px;
+    font-size: 13px;
+    font-weight: 700;
     color: var(--light-text-color);
+    text-align: center;
+    position: absolute;
+    top:50%;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    
 }
