@@ -296,6 +296,7 @@
     object-fit: contain;
     max-width: 100%;
     position: relative;
+    z-index: 1;
 }
 
 .lake__play {
@@ -303,6 +304,7 @@
     height: 100%;
     width: 100%;
     align-items: center;
+    z-index: 2;
 }
 
 .lake__text {
@@ -313,7 +315,7 @@
     top:50%;
     left: 0;
     width: 100%;
-    z-index: index 2;
+    z-index: 2;
     transform: translate3d(0, -50%, 0);
 
 }
