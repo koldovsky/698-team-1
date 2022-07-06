@@ -6,6 +6,10 @@
     width: 100%; 
 }
 
+.about-para {
+    margin-bottom: 10px;
+}
+
 .about-us-description {
     padding-top: 90px;
     padding-bottom: 5px;
@@ -225,7 +229,7 @@ p {
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    margin: 0 auto;
+    margin: auto;
     margin-bottom: 20px;
     font-size: 30px;
     text-align: center;
@@ -241,6 +245,7 @@ p {
         font-size: 40px;
         height: 300px;
         width: 300px;
+        margin: auto;
     }
 }
 
@@ -261,10 +266,10 @@ input {
     height: 30px;
     font-size: 17px;
     border-color: var(--paragraph-color);
-    padding-left: 20px;
+    padding-left: 8px;
 }
 
-button {
+.check-weather {
     font-family: 'Roboto', sans-serif;
     color: 000;
     background-color: var(--clock-background-color);
@@ -272,6 +277,7 @@ button {
     font-size: 17px;
     border-color:  var(--paragraph-color);
     box-shadow: 0 4px 8px 0 var(--clock-box-shadow-a-color), 0 6px 20px 0 var(--clock-box-shadow-b-color);
+    padding: 0 5px;
 }
 
 button:hover {
