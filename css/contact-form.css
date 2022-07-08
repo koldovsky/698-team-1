@@ -3,12 +3,17 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.contact-form-wrapper {
+
+.contact-form-wrapper-outer {
+  padding: 50px;
+}
+.contact-form-wrapper-inner {
     background-color: #232428;
-    margin: auto;
-    width: 100%;
+    margin: 50px 0;
+    width: 400px;
+    height: 650px;
     max-width: 680px;
-    padding: 60px;
+    padding: 40px 20px;
     box-sizing: border-box;
   }
 
@@ -30,13 +35,13 @@
 .calendar-form,
 .btn {
   width: 100%;
-  min-height: 65px;
+  min-height: 40px;
   margin: 10px 0;
 }
 
 .form input[type="text"] {
   border: 2px solid #fff;
-  padding: 10px 5px;
+  padding: 14px 20px;
   outline: none;
   border-radius: 2px;
   width: 100%;
@@ -50,6 +55,9 @@
     0 0 8px rgba(76, 161, 175, 0.5);
 }
 
+input {
+  padding: 14px 20px;
+}
 .form .label {
   margin-bottom: 5px;
   text-transform: capitalize;
