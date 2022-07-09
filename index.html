@@ -10,6 +10,10 @@
     <title>Guide Tour</title>
     <link rel="icon" href="img/icon.png">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
 </head>
 
 <body>
@@ -522,10 +526,32 @@
               <div class="calendar-form">
                 <div class="inner-calendar-form">
                     <div class="label"></div>
-                  <input class="contact-input-calendar" type="text" placeholder="Choose date">
+                  <input class="contact-input-calendar" type="text" placeholder="Choose date" id="datepicker">
                   <span class="date-picker-icon">
                     <svg class="calendar-image" style="color: rgb(8, 8, 8);" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 24"><path d="M12,19a1,1,0,1,0-1-1A1,1,0,0,0,12,19Zm5,0a1,1,0,1,0-1-1A1,1,0,0,0,17,19Zm0-4a1,1,0,1,0-1-1A1,1,0,0,0,17,15Zm-5,0a1,1,0,1,0-1-1A1,1,0,0,0,12,15ZM19,3H18V2a1,1,0,0,0-2,0V3H8V2A1,1,0,0,0,6,2V3H5A3,3,0,0,0,2,6V20a3,3,0,0,0,3,3H19a3,3,0,0,0,3-3V6A3,3,0,0,0,19,3Zm1,17a1,1,0,0,1-1,1H5a1,1,0,0,1-1-1V11H20ZM20,9H4V6A1,1,0,0,1,5,5H6V6A1,1,0,0,0,8,6V5h8V6a1,1,0,0,0,2,0V5h1a1,1,0,0,1,1,1ZM7,15a1,1,0,1,0-1-1A1,1,0,0,0,7,15Zm0,4a1,1,0,1,0-1-1A1,1,0,0,0,7,19Z" fill="#080808"></path></svg>
                   </span>
+                  <!--<div class="calendar-container">
+                    <div class="calendar">
+                      <div class="month">
+                        <i class="fas fa-angle-left prev"></i>
+                        <div class="date">
+                          <h1 class="calendar-heading"></h1>
+                          <p class="calendar-para"></p>
+                        </div>
+                        <i class="fas fa-angle-right next"></i>
+                      </div>
+                      <div class="weekdays">
+                        <div class="weekday">Sun</div>
+                        <div class="weekday">Mon</div>
+                        <div class="weekday">Tue</div>
+                        <div class="weekday">Wed</div>
+                        <div class="weekday">Thu</div>
+                        <div class="weekday">Fri</div>
+                        <div class="weekday">Sat</div>
+                      </div>
+                      <div class="days"></div>
+                    </div>
+                  </div> -->
                 </div>
               </div>
           
@@ -612,6 +638,7 @@
     <script src="js/carousel-spots.js"></script>
     <script src="js/about-norway.js"></script>
     <script src="js/weather-forecast.js"></script>
+    <script src="js/contact-form.js"></script>
 </body>
 
 </html>
