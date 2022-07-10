@@ -336,11 +336,20 @@
     z-index: 2;
     
 }
+.lake__play-icon {
+    
+    display: block;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    z-index: 2;
+}
 .lake__play-text {
     display: block;
     text-align: center;
     position: absolute;
-    top:50%;
+    top: 50%;
     left: 0;
     width: 100%;
     z-index: 2;
@@ -348,17 +357,7 @@
     font-size: 13px;
     font-weight: 500;
 }
-.lake__play-icon{
-    
-    display: block;
-    left: 50%;
-    text-align: center;
-    position: absolute;
-    top:50%;
-    left: 0;
-    width: 100%;
-    z-index: 2;
-}
+
 
 .about__norway-description-clock {
     font-size: 20px;
