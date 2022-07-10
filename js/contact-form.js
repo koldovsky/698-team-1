@@ -2,9 +2,30 @@ $(function() {
 $('#datepicker').datepicker();
 });
 
-/*document.querySelector('.contact-input-calendar').addEventListener('click', chooseDate); */
+(function () {
 
+document.querySelector('.btn').addEventListener('click', sendEmail); 
 
+function sendEmail() {
+    Email.send({
+    Host : "smtp.gmail.com",
+    Username : "marichkbilo@gmail.com",
+    Password : "MARINTERP2021",
+    To : 'marichkapobihushka@gmail.com',
+    From : document.getElementById("email").value,
+    Subject : "New Contact Form Enquiry",
+    Body : "Name: " + document.getElementById("name").value
+           + "<br> Email: " + document.getElementById("email").value
+           + "<br> Phone: " + document.getElementById("phone").value
+           + "<br> Datepicker: " + document.getElementById("datepicker").value
+}).then(
+message => {
+    return alert("Message sent successfully");
+  }
+);
+}
+
+})();
 
 /*const date = new Date();
 
