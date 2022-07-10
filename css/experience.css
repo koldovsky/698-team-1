@@ -46,8 +46,44 @@
 
 }
 
+.experience_slider {
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    top: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+.arrows_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: none;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background: #4f5157;
+    fill: #ffffff
+}
+
+.arrows_button:hover {
+    background-color: #000000;
+}
+
+.arrow_button-image {
+    width: 20px;
+    height: 20px;
+    fill: #ffffff;
+}
+
+
 .experience_stories {
-    margin-top: 70px;
+    margin-top: 45px;
+    position: relative;
 
 }
 
