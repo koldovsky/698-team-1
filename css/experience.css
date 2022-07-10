@@ -46,40 +46,96 @@
 
 }
 
+/* arrows */
+
 .experience_slider {
     position: absolute;
-    left: 15px;
-    right: 15px;
-    top: 45%;
+    left: -15px;
+    right: -15px;
+    top: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 1;
 }
 
-.arrows_button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    border: none;
-    width: 30px;
-    height: 30px;
+@media (min-width: 640px) {
+    .experience_slider {
+        position: absolute;
+        left: -10px;
+        right: -10px;
+        top: 40%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1;
+    }
+}
+
+@media (min-width: 930px) {
+    .experience_slider {
+        position: absolute;
+        left: -10px;
+        right: -10px;
+        top: 40%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1;
+    }
+}
+
+@media (min-width: 1120px) {
+    .experience_slider {
+        position: absolute;
+        left: -90px;
+        right: -90px;
+        top: 40%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1;
+    }
+}
+
+i {
+    border: solid #606269;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 6px;
     cursor: pointer;
-    background: #4f5157;
-    fill: #ffffff
 }
 
-.arrows_button:hover {
-    background-color: #000000;
+
+@media (min-width: 640px) {
+    i {
+    
+    }
 }
 
-.arrow_button-image {
-    width: 20px;
-    height: 20px;
-    fill: #ffffff;
+@media (min-width: 960px) {
+    i {
+    }
 }
 
+.arrow_right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.arrow_left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+i:hover {
+    border: solid #131314;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 6px;
+}
+
+/* arrows */
 
 .experience_stories {
     margin-top: 45px;
