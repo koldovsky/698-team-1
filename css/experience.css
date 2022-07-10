@@ -48,7 +48,7 @@
 
 /* arrows */
 
-.experience_slider {
+.slider_arrows {
     position: absolute;
     left: -15px;
     right: -15px;
@@ -60,7 +60,7 @@
 }
 
 @media (min-width: 640px) {
-    .experience_slider {
+    .slider_arrows {
         position: absolute;
         left: -10px;
         right: -10px;
@@ -73,7 +73,7 @@
 }
 
 @media (min-width: 930px) {
-    .experience_slider {
+    .slider_arrows {
         position: absolute;
         left: -20px;
         right: -20px;
@@ -86,7 +86,7 @@
 }
 
 @media (min-width: 1120px) {
-    .experience_slider {
+    .slider_arrows {
         position: absolute;
         left: -90px;
         right: -90px;
@@ -98,24 +98,12 @@
     }
 }
 
-i {
+.slider_arrow {
     border: solid #606269;
     border-width: 0 2px 2px 0;
     display: inline-block;
     padding: 6px;
     cursor: pointer;
-}
-
-
-@media (min-width: 640px) {
-    i {
-    
-    }
-}
-
-@media (min-width: 960px) {
-    i {
-    }
 }
 
 .arrow_right {
@@ -137,14 +125,9 @@ i:hover {
 
 /* arrows */
 
-.experience_stories {
+.slider_story {
     margin-top: 45px;
     position: relative;
-
-}
-
-.story_hidden {
-    opacity: 0;
 }
 
 .story_photo {
@@ -195,7 +178,8 @@ i:hover {
   }
 
   .dot1 {
-    background-color: rgb(75, 73, 73);
+    background-color: rgb(98, 95, 95);
+
   }
 
   .dot2,
