@@ -75,8 +75,8 @@
 @media (min-width: 930px) {
     .experience_slider {
         position: absolute;
-        left: -10px;
-        right: -10px;
+        left: -20px;
+        right: -20px;
         top: 40%;
         display: flex;
         justify-content: space-between;
@@ -175,4 +175,30 @@ i:hover {
     font-weight: 500;
 }
 
+/* slider_dots */
 
+.slider_dots {
+    margin-top: 25px;
+}
+
+.slider_dot {
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .slider_dot:hover {
+    background-color: #131314;;
+  }
+
+  .dot1 {
+    background-color: rgb(75, 73, 73);
+  }
+
+  .dot2,
+  .dot3 {
+    margin-left: 10px;
+  }
