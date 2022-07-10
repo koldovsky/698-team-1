@@ -1,14 +1,32 @@
+.empty-container {
+  background-image: url(https://res2.weblium.site/res/5f0f108db6bcbd0022791194/5f11a83835b22b0022e9ea70_optimized_1920);
+  background-repeat: no-repeat;
+  background-size: cover; 
+ /*position: fixed;    */
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+ background-attachment: fixed;
+  background-size: 100% 100%;
+  /*height: 1000px;*/
+  z-index: -1;
+  bottom: 0px;
+} 
+
+
 .contact-form-container {
-    background-image: url(https://res2.weblium.site/res/5f0f108db6bcbd0022791194/5f11a83835b22b0022e9ea70_optimized_1920);
+   /* background-image: url(https://res2.weblium.site/res/5f0f108db6bcbd0022791194/5f11a83835b22b0022e9ea70_optimized_1920);
     background-repeat: no-repeat;
-    background-size: cover;
-}
+    background-size: cover; */
+} 
 
 .contact-form-wrapper-outer {
   /*padding: 50px;*/
   min-width: 450px;
   min-height: 650px;
-  padding: 40px;
+  padding: 60px;
   box-sizing: border-box;
   /*margin: 50px 0; */
 }
@@ -49,6 +67,7 @@
     text-align: center;
     margin-bottom: 10px;
     padding-bottom: 20px;
+    margin-left: 5px;
   }
   .book-journey {
   font-size: 45px;
@@ -158,6 +177,7 @@
     /*width: 390px;
     height: 45px; */
     margin-top: 40px;
+    margin-bottom: 40px;
   }
 
   .calendar-image {
@@ -182,7 +202,7 @@
   min-height: 650px;
   /*padding: 40px;*/
   box-sizing: border-box;
-  margin-left: 100px;
+  margin-left: 120px;
 }
 .contact-form-wrapper-inner {
     /*margin: 50px 0;*/
@@ -191,6 +211,13 @@
     max-width: 600px;
     /*padding: 40px;*/
     box-sizing: border-box;
+  }
+}
+
+@media (min-width: 640px) {
+  .contact-form-container {
+    display: flex;
+    flex-direction: row;
   }
 }
 
