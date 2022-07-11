@@ -5,7 +5,6 @@ const dots = document.querySelectorAll('.slider_dot');
 
 let index = 0;
 
-console.log(slides);
 const activeSlide = n => {
     for(slide of slides) {
         slide.classList.remove('active')
@@ -15,9 +14,9 @@ const activeSlide = n => {
 
 const activeDot = n => {
     for(dot of dots) {
-        dot.classList.remove('active')
+        dot.classList.remove('active-dot')
     }
-    dots[n].classList.add('active')
+    dots[n].classList.add('active-dot')
 }
 
 const prepareCurrentSlide = ind => {
@@ -26,7 +25,7 @@ const prepareCurrentSlide = ind => {
 }
 
 const nextSlide = () => {
-    if (index == slides.length - 1) {
+    if(index == slides.length - 1) {
         index = 0;
         prepareCurrentSlide(index);
     } else {
@@ -35,14 +34,13 @@ const nextSlide = () => {
     }
 }
 
-
 const prevSlide = () => {
-    if (index == slides.length - 1) {
-        index = 0;
-        activeSlide(index);
+    if (index == 0) {
+        index = slides.length - 1
+        prepareCurrentSlide(index);
     } else {
         index--;
-        activeSlide(index);
+        prepareCurrentSlide(index);
     }
 }
 
@@ -54,4 +52,4 @@ dots.forEach((item, indexDot) =>  {
 })
 
 next.addEventListener('click', nextSlide);
-prev.addEventListener('click', prevSlide);
+prev.addEventListener('click', prevSlide); 
