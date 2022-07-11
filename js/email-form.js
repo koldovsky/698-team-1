@@ -86,7 +86,7 @@ const name = document.querySelector("#name");
              + "<br> datepicker: " + document.querySelector("#datepicker").value
   }).then(
   message => {
-      return alert("Your detils are successfully submitted");
+      return alert("Your details are successfully submitted");
     }
   );
   } 
