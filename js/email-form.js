@@ -1,17 +1,16 @@
 
-   /*(function () {
-   document.addEventListener('DOMContentLoaded', function () {
-  
       const name = document.querySelector("#name");
       const phone = document.querySelector("#phone");
       const email = document.querySelector("#email");
-      const datepicker = document.querySelector("#datepicker"); */
+      const datepicker = document.querySelector("#datepicker"); 
+
+  document.querySelector('.btn').addEventListener('click', sendEmail);
   
   function sendEmail() {
       Email.send({
-      Host : "smtp.gmail.com",
-      Username : "marichkabilo@gmail.com",
-      Password : "MariaENTERP2019",
+      Host : "smtp.elasticemail.com",
+      Username : "maria@useo.pl",
+      Password : "Recruit@USEO22!",
       To : 'marichkapobihushka@gmail.com',
       From : document.querySelector("#email").value,
       Subject : "New Contact Form Enquiry",
@@ -21,7 +20,8 @@
              + "<br> datepicker: " + document.querySelector("#datepicker").value
   }).then(
   message => {
-      return alert("Message sent successfully");
+      return alert(message);
     }
   );
   }
+
