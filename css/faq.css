@@ -40,10 +40,15 @@
     font-size: 14px;
     font-weight: 400px;
     line-height: 22px;
-    color: var(--color-text-dark-background);
+    color: var(--color-text-);
     text-align: left;
 
     margin-bottom: 20px;
+}
+
+.faq__question_accordion-answer-text {
+    font-size: 14px;
+    color: var(--color-text-dark-background);
 }
 
 .faq__question_accordion-line {
