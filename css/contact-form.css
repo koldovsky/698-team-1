@@ -189,9 +189,9 @@
   .date-picker-icon .calendar-image {
     display: inline-flex;
     position: absolute;
-    margin-right: -68px;
+    /*margin-right: -38px;*/
     margin-top: 25px;
-    transform: translateX(-105%);
+    transform: translateX(-95%);
   }
   
 @media (min-width: 640px) {
