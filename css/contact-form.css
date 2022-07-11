@@ -191,7 +191,7 @@
     position: absolute;
     /*margin-right: -38px;*/
     margin-top: 25px;
-    transform: translateX(-95%);
+    transform: translateX(-105%);
   }
   
 @media (min-width: 640px) {
