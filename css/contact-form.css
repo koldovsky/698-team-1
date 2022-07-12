@@ -10,17 +10,9 @@
 
  background-attachment: fixed;
   background-size: 100% 100%;
-  /*height: 1000px;*/
   z-index: -1;
   bottom: 0px;
-} 
-
-
-.contact-form-container {
-   /* background-image: url(https://res2.weblium.site/res/5f0f108db6bcbd0022791194/5f11a83835b22b0022e9ea70_optimized_1920);
-    background-repeat: no-repeat;
-    background-size: cover; */
-} 
+}  
 
 .contact-form-wrapper-outer {
   /*padding: 50px;*/
@@ -33,9 +25,6 @@
 .contact-form-wrapper-inner {
     background-color: #232428;
     margin: 50px 0;
-    /*width: 500px;
-    height: 650px; */
-    /*max-width: 680px;*/
     padding: 40px;
     box-sizing: border-box;
   }
@@ -99,7 +88,6 @@
 .btn {
   width: 100%;
   min-height: 40px;
- /* margin: 10px 0; */
 }
 
 .form .contact-input[type="text"] {
@@ -112,7 +100,21 @@
   line-height: 17px;
   margin-top: 12px;
   background-color: rgb(45, 46, 52);
-  /*width: 390px;*/
+  height: 45px;
+  margin-bottom: 10px;
+}
+
+
+#email {
+  border: 2px;
+  padding: 14px 20px;
+  outline: none;
+  border-radius: 2px;
+  width: 100%;
+  transition: all 0.2s ease;
+  line-height: 17px;
+  margin-top: 12px;
+  background-color: rgb(45, 46, 52);
   height: 45px;
   margin-bottom: 10px;
 }

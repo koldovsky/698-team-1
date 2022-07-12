@@ -538,6 +538,7 @@
         <!-- Vladislav Burhovetskiy finish  -->
 
         <!--Maria Bilo start-CONTACT FORM-->
+        <form action="https://formspree.io/f/mjvlqlrn" method="POST">
         <div class="empty-container">
         <section class="contact-form-container">
             <div class="contact-form-wrapper-outer">
@@ -553,19 +554,18 @@
                     </div>
 
                     <div class="form">
-
                         <div class="top-form">
                             <div class="inner-form">
                                 <div class="label"></div>
-                                <input class="contact-input" type="text" placeholder="Your name" id="name">
+                                <input class="contact-input" type="text" placeholder="Your name" id="name" name="name" required>
                             </div>
                             <div class="inner-form">
                                 <div class="label"></div>
-                                <input class="contact-input" type="text" placeholder="Your phone" id="phone">
+                                <input class="contact-input" type="text" placeholder="Your phone" id="phone" name="phone" required>
                             </div>
                             <div class="inner-form">
                                 <div class="label"></div>
-                                <input class="contact-input" type="text" placeholder="Your email" id="email">
+                                <input class="contact-input" type="email" placeholder="Your email" id="email" name="email" required>
                             </div>
                         </div>
 
@@ -573,7 +573,7 @@
                             <div class="inner-calendar-form">
                                 <div class="label"></div>
                                 <input class="contact-input-calendar" type="text" placeholder="Choose date"
-                                    id="datepicker">
+                                    id="datepicker" name="datepicker">
                                 <span class="date-picker-icon">
                                     <svg class="calendar-image" style="color: rgb(8, 8, 8);"
                                         xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 24">
@@ -582,41 +582,17 @@
                                             fill="#080808"></path>
                                     </svg>
                                 </span>
-                                <!--<div class="calendar-container">
-                    <div class="calendar">
-                      <div class="month">
-                        <i class="fas fa-angle-left prev"></i>
-                        <div class="date">
-                          <h1 class="calendar-heading"></h1>
-                          <p class="calendar-para"></p>
-                        </div>
-                        <i class="fas fa-angle-right next"></i>
-                      </div>
-                      <div class="weekdays">
-                        <div class="weekday">Sun</div>
-                        <div class="weekday">Mon</div>
-                        <div class="weekday">Tue</div>
-                        <div class="weekday">Wed</div>
-                        <div class="weekday">Thu</div>
-                        <div class="weekday">Fri</div>
-                        <div class="weekday">Sat</div>
-                      </div>
-                      <div class="days"></div>
-                    </div>
-                  </div> -->
                             </div>
                         </div>
 
-                        <div class="btn" onclick="sendEmail()">Request a quote</div>
-
-                    </div>
-                </div>
-            </div>
-
-        </section>
-       </div>
-       
-    
+                        <button class="btn" type="submit" value="send">Submit</button>
+     </div>
+   </div>
+</div>
+</section>
+</div>
+</form>
+<div class=".contact-form-status"></div>
         <!--Maria Bilo end-CONTACT FORM-->
 
         <!-- Mariami Gurgenidze Experience section (start)-->

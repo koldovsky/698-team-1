@@ -1,3 +1,26 @@
+(function () {
+  const form = document.querySelector('.form');
+  function handleSubmit(event) {
+    event.preventDefault();
+    const status = document.querySelector('.contact-form-status');
+    fetch(form.action, {
+      method: form.method,
+      body: new FormData(event.target),
+      headers: {
+          'Accept': 'application/json'
+      }
+    }).then( () => {
+      status.innerHTML = "Thanks for your submission!";
+      form.reset();
+    }).catch( () => {
+      status.innerHTML = "Oops! There was a problem submitting your form"
+    });
+  }
+  form.addEventListener("submit", handleSubmit)
+})();
+
+document.querySelector('.btn').addEventListener('click', handleSubmit);
+ 
 /*
       
       const name = document.querySelector("#name");
@@ -64,7 +87,7 @@ document.querySelector('.btn').addEventListener('click', sendMSG);
 
 /* old variant */
 
-
+/*
 const name = document.querySelector("#name");
       const phone = document.querySelector("#phone");
       const email = document.querySelector("#email");
@@ -89,4 +112,4 @@ const name = document.querySelector("#name");
       return alert("Your details are successfully submitted");
     }
   );
-  } 
+  } */
