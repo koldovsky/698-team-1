@@ -1,6 +1,4 @@
 .about__norway {
-    max-width: 1200px;
-    margin: auto;
     padding: 100px 24px 0;
     text-align: left;
     background-color: var(--color-background-light);
@@ -41,8 +39,11 @@
     font-family: 'Roboto', sans-serif;
     font-size: 34px;
     margin-bottom: 50px;
-}
+    }
 
+.about__norway-description-clock {
+    padding-top: 10px;
+}
 .about__norway-text {
     color: var(--paragraph-color);
     font-family: 'Roboto', sans-serif;
@@ -386,7 +387,7 @@
 .about__norway-description-clock {
     font-size: 20px;
     font-weight: 500;
-    color: var(--light-text-color);
+    color: var(--headlines-dark-color);
     position: absolute;
     text-align: justify;
     border: 5px;
