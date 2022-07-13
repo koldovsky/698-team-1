@@ -204,7 +204,7 @@
   min-height: 650px;
   /*padding: 40px;*/
   box-sizing: border-box;
-  margin-left: 120px;
+  margin-left: 20px;
 }
 .contact-form-wrapper-inner {
     /*margin: 50px 0;*/
@@ -223,6 +223,61 @@
   }
 }
 
+  
+@media (min-width: 780px) {
+  
+  .contact-form-wrapper-outer {
+    /*padding: 50px;*/
+    min-width: 450px;
+    min-height: 650px;
+    /*padding: 40px;*/
+    box-sizing: border-box;
+    margin-left: 70px;
+  }
+  .contact-form-wrapper-inner {
+      /*margin: 50px 0;*/
+      width: 500px;
+      height: 650px;
+      max-width: 600px;
+      /*padding: 40px;*/
+      box-sizing: border-box;
+    }
+  }
+  
+  @media (min-width: 780px) {
+    .contact-form-container {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+
+  
+@media (min-width: 1000px) {
+  
+  .contact-form-wrapper-outer {
+    /*padding: 50px;*/
+    min-width: 450px;
+    min-height: 650px;
+    /*padding: 40px;*/
+    box-sizing: border-box;
+    margin-left: 120px;
+  }
+  .contact-form-wrapper-inner {
+      /*margin: 50px 0;*/
+      width: 500px;
+      height: 650px;
+      max-width: 600px;
+      /*padding: 40px;*/
+      box-sizing: border-box;
+    }
+  }
+  
+  @media (min-width: 780px) {
+    .contact-form-container {
+      display: flex;
+      flex-direction: row;
+    }
+  }
 /*
 .calendar-container {
   width: 100%;
