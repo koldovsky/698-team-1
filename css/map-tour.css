@@ -1,16 +1,107 @@
-/* .map {
+.map {
     display: flex;
     background: url(https://res2.weblium.site/res/5f0f108db6bcbd0022791194/5f153dd41538900022e142ad_optimized_1920);
     background-size: 100%;
     justify-content: center;
-} */
-
-.map_img-container {
-    width: 300px;
-    height: 320px;
+} 
+.map__tour{
+    font-size: 12px;
+    color: var(--color-text-dark-background);
+    line-height: 20px;
 }
+.map_h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: var(--color-text-dark-background);
+    margin-bottom: 20px;
+    margin-top: 160px;
+}
+.decoration_line_map{
+    color: var(--decoration-line-color);
+}
+.map_img-container{
+    position: relative;
+    margin-right: 20px;
+}
+@media (min-width: 960px) {
+    .map_img-container{
+        max-width: 400px;
+        padding: 125px 0 120px 0;
+        position: relative;
+        margin-right: 100px;
+    }
+}
+
+.map_head-first{
+    color: var(--light-text-color);
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 34px;
+    letter-spacing: 1.02px;
+    line-height: 40px;
+}
+.map__icon_header{
+    color: #fff;
+    margin-bottom: 5px;
+    font-size: 14px;
+    letter-spacing: 1.02px;
+}
+.map_head-second{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 34px;
+    letter-spacing: 1.02px;
+    line-height: 40px;
+}
+.font-family{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 34px;
+    letter-spacing: 1.02px;
+    line-height: 40px;
+}
+
+.map_pic{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+.map_pic-text{
+    display: flex;
+    margin-top: 20px;
+}
+.map_container {
+    display: flex;
+    max-width: 1000px;
+    padding: 0 24px;
+    padding-bottom: 90px;
+}
+
+@media (max-width: 640px) {
+    .map_container {
+        max-width: 630px;
+        display: block;
+        margin-bottom: 40px;
+    }
+}
+
+@media (min-width: 960px) {
+    .map_container {
+        max-width: 950px;
+    }
+}
+
 
 .map_img {
     width: 100%;
     height: 100%;
+    margin-right: 40px;
+}
+
+.map__map-text {
+font-family: 'Roboto',sans-serif;
+font-weight: 600;
+text-decoration: none;
+font-style: normal;
+margin-bottom: 40px;
 }

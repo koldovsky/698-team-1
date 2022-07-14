@@ -7,9 +7,10 @@
 
 .experience__content {
     max-width: 478px;
-    padding: 125px 0 120px 0;
+    margin: 125px 0 120px 0;
     text-align: center;
     position: relative; 
+    padding: 0 15px 0 15px;
 }
 
 @media (min-width: 640px) {
@@ -31,43 +32,55 @@
 .experience_subtitle {
     font-size: 12px;
     text-transform: uppercase;
+    color: #505155;
+}
+
+.subtitle-line {
+    color: rgb(238,46,20);
+    margin-right: 3px;
 }
 
 .experience_title {
     font-size: 34px;
     margin-top: 20px;
     font-family: 'Playfair Display', serif;
-
+    color: #505155;
+    letter-spacing: .03em;
 }
 
 .experience_description {
     font-size: 19px;
     line-height: 1.7;
-    margin-top: 30px;
+    margin: 40px auto 0 auto;
+    letter-spacing: .03em;
+    color: #707070;
+    max-width: 579px;
+    text-align: center;
+}
+
+@media (min-width: 640px) {
+    .experience_description {
+        max-width: 579px;
+    }
+}
+
+@media (min-width: 960px) {
+    .experience_description {
+        max-width: 748px;
+    }
+}
+
+.experience_slider {
+    left: 0;
+    transition: all ease 1s;
+    overflow: hidden;
+    margin-top: 50px;
 }
 
 /* arrows */
 
 .slider_arrows {
     position: inherit;
-}
-
-@media (min-width: 640px) {
-    .slider_arrows {
-        position: inherit;
-    }
-}
-
-@media (min-width: 930px) {
-    .slider_arrows {
-        position: inherit;
-    }
-}
-
-@media (min-width: 1120px) {
-    .slider_arrows {
-        position: inherit;
-    }
 }
 
 .slider_arrow {
@@ -94,7 +107,7 @@
 
 @media (min-width: 960px) {
     #arrow_right {
-        right: -80px;
+        right: 5px;
     }
 }
 
@@ -113,7 +126,7 @@
 
 @media (min-width: 960px) {
     #arrow_left {
-        left: -80px;
+        left: 5px;
     }
 }
 
@@ -127,12 +140,24 @@
 /* arrows */
 
 .slider_story {
-    margin-top: 45px;
-    display: none;
+    position: absolute;
+    left: 2000px;
+    transform: translateX(2000px);
+    transition: all ease-out 0.6s;
+    padding: 0 40px 0 40px;
 }
 
 .slider_story.active {
-    display: block;
+    position: static;
+    transform: translateX(0);
+    transition: all ease-out 0.6s;
+}
+
+.slider_story.active + .slider_story:nth-of-type(1) {
+    position: absolute;
+    margin-top: 45px;
+    transform: translateX(-2000px);
+    transition: all ease-out 0.6s;
 }
 
 .story_photo {
@@ -155,6 +180,7 @@
     font-size: 17px;
     line-height: 1.7;
     margin-top: 30px;
+    letter-spacing: .03em;
 }
 
 .story_date {

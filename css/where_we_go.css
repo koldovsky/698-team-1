@@ -1,14 +1,14 @@
 .where_to_go {
-    background-color: rgb(255, 255, 255);
-    height: auto;
-    width: 100vw;
+   
+   margin-left: 20px;
 }
 
 .where_to_go__section_title {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
-    color: rgb(78, 78, 78);
+    color: var(--color-text-light-background);
     margin-bottom: 20px;
+  
 }
 .where_to_go__section_title_tere {
     color: var(--decoration-line-color);
@@ -19,19 +19,122 @@
     font-size: 34px;
     margin-top: 20px;
     font-family: 'Playfair Display', serif;
+    color: var(--paragraph-color);
+   
 
 }
 
 
 .where_to_go_subtitle {
-    color: var(--paragraph-color);
+    color: var(--color-text-light-background);
     font-family: 'Roboto', sans-serif;
     font-size: 19px;
     margin: 20px 0;
-
-@media (min-width: 640px) {
-    .where_to_go_subtitle {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-    }
+    
 }
+
+
+.where_to_go_photo{
+   
+    width: 100%;
+    padding: 0px,100px;
+    margin-bottom: 20px;
+   
+}
+
+.where_to_go_titr{
+    color: var(--headlines-lighter-color);
+    margin-bottom: 30px;
+}
+.where_to_go_decor{
+    color: var(--decoration-line-color);
+}
+
+.where_to_go_img{
+    width: 50%;
+    padding: 0,100;
+}
+
+.where_to_go_blok_title{
+    
+    margin-bottom: 40px;
+}
+
+
+
+.where_to_go_text{
+    margin-bottom: 20px;
+}
+
+.where_to_go_titr_subtitle{
+    font-size: 34px;
+    color: var(--color-text-light-background);
+    margin-bottom: 40px;
+}
+
+.where_to_go_decor_subtitle{
+    margin-left: 100px;
+}
+
+.where_to_go_decor_box{
+    margin-bottom: 40px;
+}
+
+.where_to_go_text_blok{
+    margin-bottom: 30px;
+}
+
+@media (min-width: 986px){
+.where_to_go_text_blok{
+    margin-left: 30px;
+}
+}
+
+.where_to_go_text_sps{
+    margin-bottom: 20px;
+}
+
+.where_to_go_text_icon{
+    height:20px; 
+    width:20px;
+    margin-right: 5px;
+}
+
+.where_to_go_text_sps{
+    display: flex;
+}
+
+
+
+.where_to_go_link{
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--light-text-color);
+    text-decoration: none;
+    filter: brightness(100%);
+    background-color: cornflowerblue;
+    border:2px solid cornflowerblue ;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+.where_to_go_main_head{
+    width: 40%;
+}
+
+@media (min-width: 986px){
+ .where_to_go_flex{
+    display: flex;
+      margin-bottom: 100px;   
+ }
+}
+
+
+
+
+
+
+
